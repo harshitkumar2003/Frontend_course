@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body {
+            background-color: gold;
+        }
+
+        .box {
+            font-size: 72px;
+            text-align: center;
+            background-color: steelblue;
+            color: white;
+            display: none;
+        }
+
+        @media only screen and (max-width:420px) {
+            #box1 {
+                display: block;
+                background-color: blue;
+            }
+        }
+
+        @media only screen and (min-width:420px) and (max-width:1024px) {
+            #box2 {
+                display: block;
+                background-color: chartreuse;
+            }
+        }
+
+        @media (min-width:1024px) and (max-width:3364px) {
+            #box3 {
+                display: block;
+                background-color: coral;
+            }
+        }
+
+        @media (min-width:3364px) {
+            #box4 {
+                display: block;
+                background-color: crimson;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">main ek phone hu</div>
+    <div class="box" id="box2">main ek tablet hu</div>
+    <div class="box" id="box3">main ek laptop hu</div>
+    <div class="box" id="box4">main ek desktop hu</div>
+</body>
+
+</html>
