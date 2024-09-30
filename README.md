@@ -15,17 +15,6 @@ In this course, you’ll explore a range of frontend technologies and concepts, 
 - **Accessibility**: ♿ Ensuring content is accessible to all users
 - **Testing**: 🧪 Basics of frontend testing methodologies
 
-## 🗂️ Repository Structure
-
-The repository is organized as follows:
-
-- `lectures/`: 📑 Lecture notes and slides
-- `assignments/`: 📋 Assignment details and starter code
-- `projects/`: 🌟 Full project guidelines and starter files
-- `resources/`: 📚 Additional materials like articles, videos, and documentation
-- `examples/`: 💡 Sample code and mini-projects
-- `docs/`: 📘 Documentation related to course tools and setup
-
 ## 🚀 Getting Started
 
 To start with the course:
