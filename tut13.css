@@ -1,4 +1,5 @@
-p{
+/* targeting p tag  */
+p {
     /* for changing the background color */
     background-color: aqua;
     /* color for text body  */
