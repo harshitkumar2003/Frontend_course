@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>visibility and z-index</title>
     <style>
         /* box styling */
-        .box{
+        .box {
             width: 170px;
             height: 170px;
             border: 2px solid black;
         }
-/* first box styling */
-        #box1{
+
+        /* first box styling */
+        #box1 {
             position: relative;
             top: 49px;
             background-color: aqua;
             z-index: 35;
         }
 
-/* second box styling */
-        #box2{
+        /* second box styling */
+        #box2 {
             position: relative;
             top: 14px;
             /* z-index: will work only for position: relative,absolute,fixed,sticky; */
@@ -34,27 +36,29 @@
         }
 
         /* third box styling */
-        #box3{
+        #box3 {
             background-color: brown;
         }
 
         /* fourth box styling */
-        #box4{
+        #box4 {
             background-color: darkgoldenrod;
         }
     </style>
 </head>
+
 <body>
     <!-- div1 -->
-    <div class="box"id="box1"></div>
+    <div class="box" id="box1"></div>
 
     <!-- div2 -->
-    <div class="box"id="box2"></div>
-    
+    <div class="box" id="box2"></div>
+
     <!-- div3 -->
-    <div class="box"id="box3"></div>
+    <div class="box" id="box3"></div>
 
     <!-- div4 -->
-    <div class="box"id="box4"></div>
+    <div class="box" id="box4"></div>
 </body>
+
 </html>
