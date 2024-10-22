@@ -1,0 +1,19 @@
+.header {
+    background-color: #ccc585;
+    display: flex;
+    align-items: baseline;
+    padding: .5rem;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+
+.links ul {
+    display: flex;
+}
