@@ -1,13 +1,20 @@
 .header {
-    position: relative;
     display: flex;
     background-color: #ccc585;
 }
 
 .logo{
+    position: relative;
     float: left;
+    height: 5rem;
+    width: 6rem;
+}
+
+.links ul{
+    display: flex;
 }
 
 .buttons{
+    position: relative;
     float: right;
 }
