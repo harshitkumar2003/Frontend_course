@@ -57,3 +57,6 @@ body {
     background-color: #ff4500; /* Darker shade on hover */
     transform: translateZ(10px) rotateX(10deg); /* 3D effect */
 }
+ .home {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fbackground%2F&psig=AOvVaw3bJUTdZeUmFbMO7_1LjwBC&ust=1729790731125000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjy0-OCpYkDFQAAAAAdAAAAABAE);
+ }
