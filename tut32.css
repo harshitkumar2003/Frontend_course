@@ -49,9 +49,11 @@ body {
     margin-left: 10px;
     cursor: pointer;
     border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s;
+    transition: transform 0.3s, background-color 0.3s;
+    perspective: 1000px; /* Perspective for 3D effect */
 }
 
 .btn:hover {
     background-color: #ff4500; /* Darker shade on hover */
+    transform: translateZ(10px) rotateX(10deg); /* 3D effect */
 }
