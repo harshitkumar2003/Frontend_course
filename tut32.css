@@ -1,20 +1,57 @@
-.header {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
     display: flex;
-    background-color: #ccc585;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
 }
 
-.logo{
-    position: relative;
-    float: left;
-    height: 5rem;
-    width: 6rem;
+.logo {
+    color: white;
+    font-size: 24px;
 }
 
-.links ul{
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347; /* Change to any color you like */
+}
+
+.buttons {
     display: flex;
 }
 
-.buttons{
-    position: relative;
-    float: right;
+.btn {
+    background-color: #ff6347; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4500; /* Darker shade on hover */
 }
