@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -58,7 +63,8 @@ body {
     transform: translateZ(10px) rotateX(10deg); /* 3D effect */
 }
  .home {
-    margin: 0;
-    height: 30rem;
+    /* margin: -12px; */
+    height: auto;
+    width: 100%;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
  }
