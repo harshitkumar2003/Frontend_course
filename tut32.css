@@ -39,7 +39,8 @@ body {
 }
 
 .nav-links a:hover {
-    color: #ff6347; /* Change to any color you like */
+    color: #ff6347;
+    /* Change to any color you like */
 }
 
 .buttons {
@@ -47,24 +48,40 @@ body {
 }
 
 .btn {
-    background-color: #ff6347; /* Button color */
+    background-color: #ff6347;
+    /* Button color */
     color: white;
     border: none;
     padding: 10px 15px;
     margin-left: 10px;
     cursor: pointer;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px;
+    /* Rounded corners */
     transition: transform 0.3s, background-color 0.3s;
-    perspective: 1000px; /* Perspective for 3D effect */
+    perspective: 1000px;
+    /* Perspective for 3D effect */
 }
 
 .btn:hover {
-    background-color: #ff4500; /* Darker shade on hover */
-    transform: translateZ(10px) rotateX(10deg); /* 3D effect */
+    background-color: #ff4500;
+    /* Darker shade on hover */
+    transform: translateZ(10px) rotateX(10deg);
+    /* 3D effect */
 }
- .home {
-    /* margin: -12px; */
+
+.home {
+    padding: 2rem;
     height: auto;
     width: 100%;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
- }
+}
+
+.headline {
+    text-align: center;
+    border: 2px solid #ff4500;
+}
+
+.headline h1 {
+    font-size: 4rem;
+    padding: auto;
+}
