@@ -71,7 +71,7 @@ body {
 
 .home {
     /* padding: 2rem; */
-    height: auto;
+    height: 31rem;
     width: 100%;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
 }
@@ -88,6 +88,7 @@ body {
 }
 .tagline h3 {
     font-size: 2rem;
+    width: 76px;
     padding: auto;
     font-variant: small-caps;
 }
