@@ -98,5 +98,10 @@ body {
 .service {
     display: flex;
     border: 2px solid rgb(59, 58, 58);
-    
+    margin: auto;
+    padding: 2rem;
+}
+hr{
+    height: 3px;
+   background: #676363;
 }
