@@ -95,3 +95,8 @@ body {
     padding: auto;
     font-variant: small-caps;
 }
+.service {
+    display: flex;
+    border: 2px solid rgb(59, 58, 58);
+    
+}
