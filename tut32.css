@@ -99,7 +99,7 @@ body {
 
 hr {
     margin-top: 1rem;
-    height: 1rem;
+    height: .1rem;
     background: #676363;
 }
 
@@ -113,5 +113,7 @@ hr {
 
 .box {
     border: 1px solid grey;
+    margin: .5rem;
+    padding: 1rem;
 
 }
