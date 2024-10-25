@@ -86,6 +86,7 @@ body {
     padding: auto;
     font-variant: small-caps;
 }
+
 .tagline h3 {
     margin: auto;
     position: relative;
@@ -95,14 +96,16 @@ body {
     padding: auto;
     font-variant: small-caps;
 }
+
 .service {
     display: flex;
     border: 2px solid rgb(59, 58, 58);
-    margin: 12px 5px;
-    padding: 2rem;
+    margin: 1rem;
+    padding: auto;
 }
-hr{
+
+hr {
     margin-top: 1rem;
     height: 1rem;
-   background: #676363;
+    background: #676363;
 }
