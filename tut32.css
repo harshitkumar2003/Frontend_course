@@ -122,3 +122,10 @@ hr {
     height: 12rem;
     width: 11rem;
 }
+
+.box h2 {
+    text-align: center;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
