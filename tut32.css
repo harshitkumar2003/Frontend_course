@@ -117,3 +117,8 @@ hr {
     padding: 1rem;
 
 }
+
+.imagebox img{
+    height: 12rem;
+    width: 11rem;
+}
