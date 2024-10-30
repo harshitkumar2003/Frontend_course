@@ -134,9 +134,7 @@ hr {
     display: flex;
 }
 
-.gbtn{
+.illustrator img {
     width: 4rem;
-    background-color: aqua;
-    text-align: center;
-
+    height: auto;
 }
