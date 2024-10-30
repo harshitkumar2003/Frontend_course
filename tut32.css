@@ -133,3 +133,10 @@ hr {
 .container {
     display: flex;
 }
+
+.gbtn{
+    width: 4rem;
+    background-color: aqua;
+    text-align: center;
+
+}
