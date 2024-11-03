@@ -135,6 +135,10 @@ hr {
     justify-content: space-around;
 }
 
+.intro h2 {
+    text-align: center;
+}
+
 .illustrator img {
     width: 34rem;
     height: 32rem;
