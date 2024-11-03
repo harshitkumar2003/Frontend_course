@@ -148,7 +148,6 @@ hr {
     height: 32rem;
 }
 
-.chatgpt {
-    height: 50%;
-    width: 50%;
+.intro .btn {
+    justify-content: space-around;
 }
