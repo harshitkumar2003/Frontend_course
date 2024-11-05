@@ -148,6 +148,7 @@ hr {
     height: 32rem;
 }
 
-.intro input {
-    justify-content: center;
+.herobtn {
+   text-align: center;
+   
 }
