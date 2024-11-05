@@ -48,12 +48,13 @@ body {
 }
 
 .btn {
+    text-align: center;
     /* background-color: #ff6347; */
     /* Button color */
     /* color: white; */
     /* border: none; */
     padding: 10px 15px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* cursor: pointer; */
     /* border-radius: 5px; */
     /* Rounded corners */
