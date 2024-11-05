@@ -136,6 +136,10 @@ hr {
 }
 
 .intro h2 {
+    text-wrap: wrap;
+    text-transform: capitalize;
+    font-size: 5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
 
