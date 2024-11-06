@@ -116,7 +116,7 @@ hr {
 }
 
 .service {
-    background-color: #ff4500;
+    background-color: #f2eef6;
     display: flex;
     /* border: 2px solid rgb(176, 61, 61); */
     margin: 1rem;
@@ -125,7 +125,7 @@ hr {
 }
 
 .box {
-    border: 1px solid grey;
+    border: 1px solid rgb(84, 78, 78);
     margin: .5rem;
     padding: 1rem;
 
