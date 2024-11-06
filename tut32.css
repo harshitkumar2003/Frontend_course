@@ -229,11 +229,15 @@ hr {
 
   .about{
     background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 5px;
+    margin: 1rem 2rem;
 
   }
   
   .abt h1 {
     font-size: 3rem;
+
   }
 
   .abt .container {
