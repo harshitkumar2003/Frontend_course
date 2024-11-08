@@ -228,7 +228,7 @@ hr {
   }
 
   .about{
-    background-color: rgb(215, 214, 213);
+    background-color: linear-gradient(bluse);
     text-align: center;
     padding: 20px 5px;
     margin: 1rem 2rem;
