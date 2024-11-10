@@ -227,13 +227,12 @@ hr {
     transform: scale(0.95);
   }
 
-  /* .about{
-    background-color: linear-gradient(bluse);
+  .about{
     text-align: center;
     padding: 20px 5px;
     margin: 1rem 2rem;
 
-  } */
+  }
   
   .about h1 {
     font-size: 3rem;
