@@ -247,7 +247,9 @@ hr {
   .acenter {
     background-color: #dbdbdb;
     display: flex;
-    /* width: 48%; */
-    gap: 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .acenter p {
+    width: 50%;
+    justify-content: space-around;
   }
