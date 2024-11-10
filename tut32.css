@@ -227,15 +227,15 @@ hr {
     transform: scale(0.95);
   }
 
-  .about{
+  /* .about{
     background-color: linear-gradient(bluse);
     text-align: center;
     padding: 20px 5px;
     margin: 1rem 2rem;
 
-  }
+  } */
   
-  .abt h1 {
+  .about h1 {
     font-size: 3rem;
    margin-top: 1rem;
 
@@ -243,4 +243,8 @@ hr {
 
   .acenter h2 {
     margin: 2rem .8rem;
+  }
+
+  .acenter {
+    background-color: #dbdbdb;
   }
