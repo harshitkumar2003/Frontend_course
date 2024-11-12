@@ -253,3 +253,8 @@ hr {
     width: 50%;
     justify-content: space-around;
   }
+
+  insts{
+    background-color: #333;
+    color: #571c92;
+  }
