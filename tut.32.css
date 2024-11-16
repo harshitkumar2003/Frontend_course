@@ -3,24 +3,38 @@
     padding: 0;
 }
 
-.header {}
+.header {
+    border: 2px solid red;
+}
 
-.nav {}
+.nav {
+    border: 2px solid red;
+}
 
 .navbar {
     display: flex;
+    border: 2px solid red;
 }
 
 .navlinks {
     display: flex;
+    border: 2px solid red;
 }
 
 
 
-.heropage {}
+.heropage {
+    border: 2px solid red;
+}
 
-.container {}
+.container {
+    border: 2px solid red;
+}
 
-.home {}
+.home {
+    border: 2px solid red;
+}
 
-.tagline {}
+.tagline {
+    border: 2px solid red;
+}
