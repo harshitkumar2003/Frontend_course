@@ -7,7 +7,9 @@
 
 .nav {}
 
-.navbar {}
+.navbar {
+    display: flex;
+}
 
 .navlink {}
 
