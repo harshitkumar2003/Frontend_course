@@ -19,7 +19,7 @@
 .navlinks ul {
     display: flex;
     list-style: none;
-    border: 2px solid red;
+    border: 2px solid rgb(199, 165, 165);
 }
 
 .navlinks ul li{
