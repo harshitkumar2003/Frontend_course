@@ -11,7 +11,9 @@
     display: flex;
 }
 
-.navlink {}
+.navlinks {
+    display: flex;
+}
 
 
 
