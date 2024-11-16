@@ -16,12 +16,15 @@
     border: 2px solid red;
 }
 
-.navlinks {
+.navlinks ul {
     display: flex;
     border: 2px solid red;
 }
 
-
+.navlinks ul li{
+    text-decoration: none;
+    border: 2px solid red;
+}
 
 .heropage {
     border: 2px solid red;
