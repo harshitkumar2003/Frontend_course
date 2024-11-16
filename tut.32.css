@@ -18,11 +18,11 @@
 
 .navlinks ul {
     display: flex;
+    list-style: none;
     border: 2px solid red;
 }
 
 .navlinks ul li{
-    text-decoration: none;
     border: 2px solid red;
 }
 
