@@ -4,11 +4,11 @@
 }
 
 .header {
-    border: 2px solid red;
+    border: 2px solid rgb(150, 94, 10);
 }
 
 .nav {
-    border: 2px solid red;
+    border: 2px solid rgb(42, 39, 209);
 }
 
 .navbar {
@@ -19,7 +19,7 @@
 .navlinks ul {
     display: flex;
     list-style: none;
-    border: 2px solid rgb(199, 165, 165);
+    border: 2px solid rgb(44, 0, 57);
 }
 
 .navlinks ul li{
