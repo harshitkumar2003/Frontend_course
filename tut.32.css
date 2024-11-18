@@ -5,12 +5,18 @@
 
 .header {
     padding: .4rem;
-    border: 2px solid rgb(150, 94, 10);
+    /* border: 2px solid rgb(150, 94, 10); */
 }
 
 .navbar {
     display: flex;
-    border: 2px solid rgb(190, 218, 27);
+    /* border: 2px solid rgb(190, 218, 27); */
+}
+
+.navbar .logo {
+    margin: auto;
+    position: relative;
+    left: -7rem;
 }
 
 .navlinks {
@@ -19,15 +25,15 @@
 }
 
 .navlinks ul {
- 
     display: flex;
     list-style: none;
-    border: 2px solid rgb(44, 0, 57);
+    /* border: 2px solid rgb(44, 0, 57); */
 }
 
 .navlinks ul li{
+    font-size: 1.2rem;
     margin: 0 2rem 0 2rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* hero page styling start */
