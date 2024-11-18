@@ -9,13 +9,16 @@
 }
 
 .navbar {
- 
     display: flex;
     border: 2px solid rgb(190, 218, 27);
 }
 
+.navlinks {
+    margin: auto;
+    justify-content: space-between;
+}
+
 .navlinks ul {
-   
     display: flex;
     list-style: none;
     border: 2px solid rgb(44, 0, 57);
