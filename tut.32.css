@@ -1,4 +1,5 @@
 * {
+    /* universal margin and padding  */
     margin: 0;
     padding: 0;
 }
@@ -23,14 +24,17 @@
 }
 
 .navlinks {
+    /* giving margin auto for centre the alignment of object */
     margin: auto;
+    /* giving some padding (space) for clearity  */
     padding: 1rem;
 }
 
 .navlinks ul {
+    /* display flex for floating all elements horizontally inside */
     display: flex;
+    /* list style none for removing points */
     list-style: none;
-    /* border: 2px solid rgb(44, 0, 57); */
 }
 
 .navlinks ul li a{
