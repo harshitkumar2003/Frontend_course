@@ -34,25 +34,17 @@
 }
 
 .navlinks ul li{
+    color: black;
+    cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     margin: 0 2rem 0 2rem;
     /* border: 2px solid red; */
 }
-.navlinks ul li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-    margin: 0 2rem 0 2rem;
-    /* border: 2px solid red; */
-}
-.navlinks ul li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-    margin: 0 2rem 0 2rem;
-    /* border: 2px solid red; */
+
+.navlinks ul li :hover{
+    color: chartreuse;
 }
 
 /* hero page styling start */
