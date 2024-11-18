@@ -5,11 +5,13 @@
 }
 
 .header {
+background-image: url(https://static.vecteezy.com/system/resources/previews/011/110/983/large_2x/bokeh-light-soft-blur-background-beauty-nature-free-photo.jpg);
     padding: .4rem;
     /* border: 2px solid rgb(150, 94, 10); */
 }
 
 .navbar {
+    backdrop-filter: blur(10px);
     display: flex;
     /* border: 2px solid rgb(190, 218, 27); */
 }
@@ -42,14 +44,14 @@
     text-decoration: none;
     color: black;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
     font-size: 1.2rem;
     margin: 0 2rem 0 2rem;
 }
 
 .navlinks ul li a:hover{
-    color: chartreuse;
+    color: rgb(255, 255, 255);
 }
 
 /* hero page styling start */
