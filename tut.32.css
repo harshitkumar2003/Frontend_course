@@ -8,8 +8,10 @@
     border: 2px solid rgb(150, 94, 10);
 }
 
-.nav {
-    border: 2px solid rgb(42, 39, 209);
+.navbar {
+ 
+    display: flex;
+    border: 2px solid rgb(190, 218, 27);
 }
 
 .navlinks ul {
