@@ -25,7 +25,6 @@
 }
 
 .navlinks ul li{
-    /* justify-content: space-evenly; */
     margin: 0 2rem 0 2rem;
     border: 2px solid red;
 }
