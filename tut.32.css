@@ -15,6 +15,7 @@
 
 .navlinks {
     margin: auto;
+    padding: 1rem;
 }
 
 .navlinks ul {
@@ -28,6 +29,8 @@
     margin: 0 2rem 0 2rem;
     border: 2px solid red;
 }
+
+/* hero page styling start */
 
 .heropage {
     border: 2px solid red;
