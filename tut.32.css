@@ -4,7 +4,7 @@
 }
 
 .header {
-    padding: 2px;
+    padding: .4rem;
     border: 2px solid rgb(150, 94, 10);
 }
 
@@ -13,11 +13,13 @@
 }
 
 .navbar {
+ 
     display: flex;
     border: 2px solid rgb(190, 218, 27);
 }
 
 .navlinks ul {
+   
     display: flex;
     list-style: none;
     border: 2px solid rgb(44, 0, 57);
