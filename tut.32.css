@@ -14,10 +14,11 @@
 }
 
 .navbar .logo {
-  
-    margin: auto;               /* logo position centre through margin */
+    /* logo position centre through margin */
+    margin: auto;              
     position: relative;
-    left: -7rem;                /* logo position left through position relative */
+    /* logo position left through position relative */
+    left: -7rem;                
    
 }
 
