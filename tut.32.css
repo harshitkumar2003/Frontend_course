@@ -15,16 +15,18 @@
 
 .navlinks {
     margin: auto;
-    justify-content: space-between;
 }
 
 .navlinks ul {
+ 
     display: flex;
     list-style: none;
     border: 2px solid rgb(44, 0, 57);
 }
 
 .navlinks ul li{
+    /* justify-content: space-evenly; */
+    margin: 0 1.5rem 0 1.5rem;
     border: 2px solid red;
 }
 
