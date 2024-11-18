@@ -38,6 +38,7 @@
 }
 
 .navlinks ul li a{
+    /* removing underline */
     text-decoration: none;
     color: black;
     cursor: pointer;
