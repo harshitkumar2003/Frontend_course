@@ -17,20 +17,18 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
 }
 
 .navbar .logo {
+    border: 2px solid red;
     /* logo position centre through margin */
     margin: auto;              
     position: relative;
-    /* logo position left through position relative */
-    left: -7rem;                
-   
+    left: -1rem;
+    /* logo position left through position relative */   
 }
 
 .logo img{
-    /* logo position centre through margin */
-    margin: auto;              
-    position: relative;
+    /* logo position centre through margin */              
+    /* position: relative; */
     /* logo position left through position relative */
-    left: 1rem;  
     height: auto;
     width: 5rem;              
 }
@@ -66,6 +64,8 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
 
 /* From Uiverse.io by kamehame-ha */ 
 .button {
+    margin: auto;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
