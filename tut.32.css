@@ -25,6 +25,17 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
    
 }
 
+.logo img{
+    /* logo position centre through margin */
+    margin: auto;              
+    position: relative;
+    /* logo position left through position relative */
+    left: 1rem;  
+    height: auto;
+    width: 5rem;              
+   
+}
+
 .navlinks {
     /* giving margin auto for centre the alignment of object */
     margin: auto;
