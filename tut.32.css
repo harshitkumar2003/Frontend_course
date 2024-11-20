@@ -69,10 +69,10 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 15px;
+    padding: 10px 10px;
     gap: 15px;
-    background-color: #007ACC;
-    outline: 3px #007ACC solid;
+    background-color: #2ad040;
+    outline: 3px #94f503 solid;
     outline-offset: -3px;
     border-radius: 5px;
     border: none;
@@ -96,11 +96,11 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
   }
   
   .button:hover .text {
-    color: #007ACC;
+    color: #26ea10;
   }
   
   .button:hover svg path {
-    fill: #007ACC;
+    fill: #0acc00;
   }
 
 /* hero page styling start */
