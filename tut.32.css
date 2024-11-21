@@ -5,7 +5,7 @@
 }
 
 .header {
-background-image: url(https://static.vecteezy.com/system/resources/previews/011/110/983/large_2x/bokeh-light-soft-blur-background-beauty-nature-free-photo.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/110/983/large_2x/bokeh-light-soft-blur-background-beauty-nature-free-photo.jpg);
     padding: .4rem;
     /* border: 2px solid rgb(150, 94, 10); */
 }
@@ -19,18 +19,18 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
 .navbar .logo {
     border: 2px solid red;
     /* logo position centre through margin */
-    margin: auto;              
+    margin: auto;
     position: relative;
     left: -1rem;
-    /* logo position left through position relative */   
+    /* logo position left through position relative */
 }
 
-.logo img{
-    /* logo position centre through margin */              
+.logo img {
+    /* logo position centre through margin */
     /* position: relative; */
     /* logo position left through position relative */
     height: auto;
-    width: 5rem;              
+    width: 5rem;
 }
 
 .navlinks {
@@ -47,7 +47,7 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
     list-style: none;
 }
 
-.navlinks ul li a{
+.navlinks ul li a {
     /* removing underline */
     text-decoration: none;
     color: black;
@@ -58,11 +58,11 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
     margin: 0 2rem 0 2rem;
 }
 
-.navlinks ul li a:hover{
+.navlinks ul li a:hover {
     color: rgb(255, 255, 255);
 }
 
-/* From Uiverse.io by kamehame-ha */ 
+/* From Uiverse.io by kamehame-ha */
 .button {
     margin: auto;
     height: 3rem;
@@ -78,30 +78,30 @@ background-image: url(https://static.vecteezy.com/system/resources/previews/011/
     border: none;
     cursor: pointer;
     transition: 400ms;
-  }
-  
-  .button .text {
+}
+
+.button .text {
     color: white;
     font-weight: 700;
     font-size: 1em;
     transition: 400ms;
-  }
-  
-  .button svg path {
+}
+
+.button svg path {
     transition: 400ms;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: transparent;
-  }
-  
-  .button:hover .text {
+}
+
+.button:hover .text {
     color: #26ea10;
-  }
-  
-  .button:hover svg path {
+}
+
+.button:hover svg path {
     fill: #0acc00;
-  }
+}
 
 /* hero page styling start */
 
