@@ -113,10 +113,6 @@
     height: 468px;
 }
 
-.container {
-    border: 2px solid red;
-}
-
 .home {
     border: 2px solid red;
     padding: 5rem;
@@ -125,4 +121,9 @@
 
 .tagline {
     border: 2px solid red;
+}
+
+.herobtn {
+    margin: auto;
+    
 }
