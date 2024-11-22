@@ -137,7 +137,19 @@
 }
 
 .herobtn {
-    
     margin: auto;
-    padding: 6rem;
+    height: 3rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 10px; */
+    gap: 15px;
+    background-color: #2ad040;
+    outline: 3px #94f503 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
 }
