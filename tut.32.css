@@ -108,9 +108,14 @@
 .heropage {
     /* border: 2px solid red; */
     background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 468px;
+   /* Set a specific height */
+   height: 50%;
+
+   /* Position and center the image to scale nicely on all screens */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
 }
 
 .home {
