@@ -108,14 +108,14 @@
 .heropage {
     /* border: 2px solid red; */
     background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
-   /* Set a specific height */
-   height: 50%;
+    /* Set a specific height */
+    height: 100%;
 
-   /* Position and center the image to scale nicely on all screens */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .home {
@@ -125,13 +125,18 @@
 }
 
 .tagline h2 {
+    font-size: 4rem;
     border: 2px solid red;
     text-align: center;
-    text-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 .herobtn {
     margin: auto;
     padding: 6rem;
-    
+
 }
