@@ -119,11 +119,14 @@
     margin: auto;
 }
 
-.tagline {
+.tagline h2 {
     border: 2px solid red;
+    text-align: center;
+    text-wrap: wrap;
 }
 
 .herobtn {
     margin: auto;
+    padding: 6rem;
     
 }
