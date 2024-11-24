@@ -10,6 +10,7 @@ html {
 }
 
 .header {
+    background-color: aliceblue;
     display: flex;
     padding: .4rem;
     align-items: center;
@@ -69,7 +70,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px;
+    padding: 9px 20px;
     gap: 5px;
     background-color: hsl(133, 76%, 10%);
     outline-offset: -3px;
