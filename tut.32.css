@@ -92,7 +92,7 @@ html {
 }
 
 .button svg {
-    height: 2.5em;
+    height: 3.5em;
     width: 2.5em;
 }
 
@@ -102,6 +102,7 @@ html {
 
 .button:hover {
     background-color: transparent;
+    border: 3px solid hsl(133, 76%, 10%);
 }
 
 .button:hover .text {
