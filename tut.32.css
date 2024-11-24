@@ -22,7 +22,7 @@ html {
 }
 
 .navbar .logo {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* logo position centre through margin */
     margin: auto;
     position: relative;
@@ -76,8 +76,9 @@ html {
     align-items: center;
     padding: 10px 10px;
     gap: 15px;
-    background-color: #2ad040;
-    outline: 3px #94f503 solid;
+    background-color: hsl(133, 76%, 10%);
+    /* outline: 3px #94f503 solid; */
+    /* outline: 3px #94f503 solid; */
     outline-offset: -3px;
     border-radius: 5px;
     border: none;
@@ -101,11 +102,11 @@ html {
 }
 
 .button:hover .text {
-    color: #26ea10;
+color: hsl(133, 76%, 10%);
 }
 
 .button:hover svg path {
-    fill: #0acc00;
+    fill:hsl(133, 76%, 10%);
 }
 
 /* hero page styling start */
