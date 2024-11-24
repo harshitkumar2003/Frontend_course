@@ -10,29 +10,25 @@ html {
 }
 
 .header {
-    /* background-image: url(; */
-    padding: .4rem;
-    /* border: 2px solid rgb(150, 94, 10); */
-}
-
-.navbar {
-    backdrop-filter: blur(10px);
     display: flex;
-    /* border: 2px solid rgb(190, 218, 27); */
+    padding: .4rem;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.navbar .logo {
-    /* border: 2px solid red; */
-    /* logo position centre through margin */
-    margin: auto;
+.left {
+    border: 2px solid rgb(190, 218, 27);
     position: relative;
-    left: -1rem;
-    /* logo position left through position relative */
+}
+
+.left .logo {
+    position: relative;
+    left: -12rem;
 }
 
 .logo img {
     /* logo position centre through margin */
-    /* position: relative; */
     /* logo position left through position relative */
     height: auto;
     width: 5rem;
