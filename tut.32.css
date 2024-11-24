@@ -102,11 +102,11 @@ html {
 }
 
 .button:hover .text {
-color: hsl(133, 76%, 10%);
+    color: hsl(133, 76%, 10%);
 }
 
 .button:hover svg path {
-    fill:hsl(133, 76%, 10%);
+    fill: hsl(133, 76%, 10%);
 }
 
 /* hero page styling start */
