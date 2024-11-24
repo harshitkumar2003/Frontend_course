@@ -10,7 +10,7 @@ html {
 }
 
 .header {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/011/110/983/large_2x/bokeh-light-soft-blur-background-beauty-nature-free-photo.jpg);
+    /* background-image: url(; */
     padding: .4rem;
     /* border: 2px solid rgb(150, 94, 10); */
 }
@@ -59,12 +59,12 @@ html {
     cursor: pointer;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0 2rem 0 2rem;
 }
 
 .navlinks ul li a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(3, 69, 4);
 }
 
 /* From Uiverse.io by kamehame-ha */
