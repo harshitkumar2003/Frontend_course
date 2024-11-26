@@ -164,7 +164,7 @@ html {
     transition: 400ms;
 }
 
-section{
+section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 100%;
@@ -173,17 +173,18 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-.image{
+
+.image {
     background-color: #12192c;
     display: flex;
 }
 
-.image img{
-height:50vh;
-margin:50px auto
+.image img {
+    height: 50vh;
+    margin: 50px auto
 }
 
-.content{
+.content {
     background-color: #12192c;
     display: flex;
     justify-content: center;
@@ -191,21 +192,22 @@ margin:50px auto
     align-items: center;
     color: #fff;
 }
-.content h2{
+
+.content h2 {
     text-transform: uppercase;
     font-size: 36px;
     letter-spacing: 6px;
     opacity: 0.9;
 }
 
-.content span{
+.content span {
     height: 0.5px;
     width: 80px;
     background: #777;
     margin: 30px 0;
 }
 
-.content p{
+.content p {
     padding-bottom: 15px;
     font-weight: 300;
     opacity: 0.7;
@@ -213,12 +215,14 @@ margin:50px auto
     text-align: center;
     margin: 0 auto;
     line-height: 1.7;
-    color:#ffffff
+    color: #ffffff
 }
-.links{
+
+.links {
     margin: 15px 0;
 }
-.links li{
+
+.links li {
     border: 2px solid #4158D0;
     list-style: none;
     border-radius: 5px;
@@ -226,35 +230,41 @@ margin:50px auto
     width: 160px;
     text-align: center;
 }
-.links li a{
+
+.links li a {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
 }
-.links li:hover{
+
+.links li:hover {
     border-color: #C850C0;
 }
 
-.vertical-line{
+.vertical-line {
     height: 30px;
     width: 3px;
     background: #C850C0;
     margin: 0 auto;
 }
-.icons{
+
+.icons {
     display: flex;
     padding: 15px 0;
 }
-.icons li{
+
+.icons li {
     display: block;
     padding: 5px;
     margin: 5px;
 }
-.icons li i{
+
+.icons li i {
     font-size: 26px;
     opacity: 0.8;
 }
-.icons li i:hover{
+
+.icons li i:hover {
     color: #C850C0;
     cursor: pointer;
 }
@@ -262,54 +272,64 @@ margin:50px auto
 
 /*****************/
 
-@media(max-width: 900px){
-    section{
+@media(max-width: 900px) {
+    section {
         grid-template-columns: 1fr;
         width: 100%;
         border-radius: none;
     }
-    .image{
+
+    .image {
         height: 100vh;
         border-radius: none;
     }
-    .content{
+
+    .content {
         height: 100vh;
         border-radius: none;
     }
-    .content h2{
+
+    .content h2 {
         font-size: 20px;
         margin-top: 50px;
     }
-    .content span{
+
+    .content span {
         margin: 20px 0;
     }
-    .content p{
+
+    .content p {
         font-size: 14px;
     }
-    .links li a{
+
+    .links li a {
         font-size: 14px;
     }
-    .links{
+
+    .links {
         margin: 5px 0;
     }
-    .links li{
+
+    .links li {
         padding: 6px 10px;
     }
-    .icons li i{
+
+    .icons li i {
         font-size: 15px;
     }
 }
-.credit{
+
+.credit {
     text-align: center;
     color: #000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .credit a{
+}
+
+.credit a {
     text-decoration: none;
-    color:#000;
+    color: #000;
     font-weight: bold;
-  } 
+}
 
 
 
