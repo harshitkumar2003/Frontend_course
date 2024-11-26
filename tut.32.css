@@ -151,3 +151,264 @@ html {
     cursor: pointer;
     transition: 400ms;
 }
+
+
+
+.content {
+    text-align: center;
+    padding: 100px 20px;
+}
+.content h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #b0c4de;
+}
+.content h2 {
+    font-size: 50px;
+    margin: 0;
+    color: #b0c4de;
+}
+.content p {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+.feedback-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 50px 20px;
+    overflow-x: auto;
+}
+.feedback-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+    flex: 0 0 auto;
+    position: relative;
+}
+.feedback-box:hover {
+    transform: scale(1.1);
+}
+.feedback-box img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.about-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.about-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.team-section {
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.team-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team-member {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.team-member h3 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+.team-member p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.team-member a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.team-member a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer .footer-section {
+    margin: 10px;
+    width: 200px;
+}
+.footer .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer .footer-section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.footer .footer-section a:hover {
+    text-decoration: underline;
+}
+.footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .newsletter input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+.footer .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+.footer .newsletter button:hover {
+    background-color: #0056b3;
+}
+.footer .developed-by {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content h2 {
+        font-size: 30px;
+    }
+    .content p {
+        font-size: 18px;
+    }
+    .feedback-box {
+        width: 45%;
+    }
+    .about-section h2 {
+        font-size: 30px;
+    }
+    .about-section p {
+        font-size: 16px;
+    }
+    .team-member {
+        width: 45%;
+    }
+    .footer .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .newsletter input[type="email"] {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar img {
+        height: 40px;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .content {
+        padding: 50px 10px;
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+    .content h2 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+    .feedback-box {
+        width: 90%;
+    }
+    .about-section h2 {
+        font-size: 25px;
+    }
+    .about-section p {
+        font-size: 14px;
+    }
+    .team-member {
+        width: 90%;
+    }
+    .footer .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .newsletter input[type="email"] {
+        width: 90%;
+    }
+}
