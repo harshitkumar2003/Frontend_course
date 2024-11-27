@@ -147,16 +147,16 @@ html {
 }
  
 /* From Uiverse.io by Gaurav-WebDev */ 
-.button {
+.type1 {
     height: 50px;
     width: 200px;
     position: relative;
     background-color: transparent;
     cursor: pointer;
-    border: 2px solid #252525;
+    border: 2px solid #ffffff;
     overflow: hidden;
     border-radius: 30px;
-    color: #333;
+    color: #ffffff;
     transition: all 0.5s ease-in-out;
   }
   
@@ -171,8 +171,8 @@ html {
     position: absolute;
     left: 0;
     top: 0;
-    transition: all 0.5s ease-in-out;
-    background-color: #333;
+    transition: all 0.9s ease-in-out;
+    background-color: #008f02;
     border-radius: 30px;
     visibility: hidden;
     height: 10px;
@@ -180,9 +180,9 @@ html {
     z-index: -1;
   }
   
-  .button:hover {
-    box-shadow: 1px 1px 200px #252525;
-    color: #fff;
+  .type1:hover {
+    box-shadow: 1px 1px 200px #ffffff;
+    color: #0abc18;
     border: none;
   }
   
