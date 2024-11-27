@@ -1,39 +1,48 @@
+/* CSS styling start  */
+  /* universal margin and padding  */
 * {
-    /* universal margin and padding  */
     margin: 0;
     padding: 0;
 }
 
+/* page height for all html */
 body,
 html {
     height: 100%;
 }
 
+/* ============================
+======navbar styling start=====
+============================ */
+
+/* header for 3 div having logo, navbar, button */
 .header {
-    background-color: aliceblue;
+    background-color: rgb(1, 10, 1);
     display: flex;
-    padding: .4rem;
+    padding: 5px;
     align-items: center;
 
 }
 
+/* left for logo */
 .left {
-    border: 2px solid rgb(190, 218, 27);
+    padding-left: 15px;
+    /* border: 2px solid rgb(190, 218, 27); */
     position: relative;
 }
 
 .left .logo {
     position: relative;
-    left: -12rem;
 }
 
 .logo img {
     /* logo position centre through margin */
     /* logo position left through position relative */
     height: auto;
-    width: 5rem;
+    width: 5.5rem;
 }
 
+/*mid for navbar */
 .mid {
     /* giving margin auto for centre the alignment of object */
     margin: auto;
@@ -51,7 +60,7 @@ html {
 .navlinks ul li a {
     /* removing underline */
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
@@ -63,6 +72,12 @@ html {
     color: rgb(3, 69, 4);
 }
 
+/* right for button */
+.right {
+    padding-right: 15px;
+}
+
+/* hearder button styling */
 .button {
     margin: auto;
     height: 3rem;
@@ -109,14 +124,16 @@ html {
     fill: hsl(133, 76%, 10%);
 }
 
-/* hero page styling start */
 
+/* ============================
+====hero page styling start====
+============================== */
+
+/* image styling */
 .hero-image {
     /* border: 2px solid red; */
     background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
-    /* Set a specific height */
     height: 100%;
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,8 +162,8 @@ html {
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
- 
-/* From Uiverse.io by Gaurav-WebDev */ 
+
+/* button styling of hero page register button */
 .type1 {
     height: 50px;
     width: 200px;
@@ -158,15 +175,15 @@ html {
     border-radius: 30px;
     color: #ffffff;
     transition: all 0.5s ease-in-out;
-  }
-  
-  .btn-txt {
+}
+
+.btn-txt {
     z-index: 1;
     font-weight: 800;
     letter-spacing: 4px;
-  }
-  
-  .type1::after {
+}
+
+.type1::after {
     content: "";
     position: absolute;
     left: 0;
@@ -178,19 +195,27 @@ html {
     height: 10px;
     width: 10px;
     z-index: -1;
-  }
-  
-  .type1:hover {
+}
+
+.type1:hover {
     box-shadow: 1px 1px 200px #ffffff;
     color: #0abc18;
     border: none;
-  }
-  
-  .type1:hover::after {
+}
+
+.type1:hover::after {
     visibility: visible;
     transform: scale(100) translateX(2px);
-  }  
-  
+}
+
+
+/* ============================
+===about page styling start====
+============================= */
+
+/* section styling */
+/* grid 1 */
+/* image styling start */
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -211,6 +236,8 @@ section {
     margin: auto
 }
 
+/* grid 2 */
+/* content start */
 .content {
     background-color: #12192c;
     display: flex;
@@ -250,7 +277,7 @@ section {
 }
 
 .links li {
-    border: 2px solid #4158D0;
+    border: 2px solid #fff;
     list-style: none;
     border-radius: 5px;
     padding: 10px 15px;
@@ -265,13 +292,13 @@ section {
 }
 
 .links li:hover {
-    border-color: #C850C0;
+    border-color: #008204;
 }
 
 .vertical-line {
     height: 30px;
     width: 3px;
-    background: #C850C0;
+    background: #008204;
     margin: 0 auto;
 }
 
