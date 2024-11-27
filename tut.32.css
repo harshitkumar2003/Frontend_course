@@ -8,6 +8,7 @@
 /* page height for all html */
 body,
 html {
+     box-sizing: border-box;
     height: 100%;
 }
 
@@ -230,7 +231,7 @@ section {
 }
 
 .image img {
-    height: 50vh;
+    height: 90vh;
     margin: auto
 }
 
