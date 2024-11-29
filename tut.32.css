@@ -8,7 +8,7 @@
 /* page height for all html */
 body,
 html {
-     box-sizing: border-box;
+    box-sizing: border-box;
     height: 100%;
 }
 
@@ -22,14 +22,12 @@ html {
     display: flex;
     padding: 5px;
     align-items: center;
-
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
 }
 
 /* left for logo */
 .left {
     padding-left: 15px;
-    /* border: 2px solid rgb(190, 218, 27); */
-    position: relative;
 }
 
 .left .logo {
@@ -37,36 +35,32 @@ html {
 }
 
 .logo img {
-    /* logo position centre through margin */
-    /* logo position left through position relative */
     height: auto;
     width: 5.5rem;
 }
 
-/*mid for navbar */
+/* mid for navbar */
 .mid {
-    /* giving margin auto for centre the alignment of object */
     margin: auto;
-    /* giving some padding (space) for clearity  */
     padding: 1rem;
 }
 
 .navlinks ul {
-    /* display flex for floating all elements horizontally inside */
     display: flex;
-    /* list style none for removing points */
     list-style: none;
 }
 
+.navlinks ul li {
+    margin: 0 2rem; /* Add margin to li for spacing */
+}
+
 .navlinks ul li a {
-    /* removing underline */
     text-decoration: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
     font-size: 1.1rem;
-    margin: 0 2rem 0 2rem;
 }
 
 .navlinks ul li a:hover {
@@ -103,15 +97,6 @@ html {
     transition: 400ms;
 }
 
-.button svg {
-    height: 3.5em;
-    width: 2.5em;
-}
-
-.button svg path {
-    transition: 400ms;
-}
-
 .button:hover {
     background-color: transparent;
     border: 1px solid hsl(136, 33%, 94%);
@@ -121,18 +106,12 @@ html {
     color: hsl(0, 0%, 99%);
 }
 
-.button:hover svg path {
-    fill: hsl(0, 0%, 100%);
-}
-
-
 /* ============================
 ====hero page styling start====
 ============================== */
 
 /* image styling */
 .hero-image {
-    /* border: 2px solid red; */
     background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
     height: 100%;
     background-position: center;
@@ -202,172 +181,6 @@ html {
     box-shadow: 1px 1px 200px #ffffff;
     color: #ffffff;
     border: none;
-}
-
-.type1:hover::after {
-    visibility: visible;
-    transform: scale(100) translateX(2px);
-}
-
-
-/* ============================
-===about page styling start====
-============================= */
-
-/* section styling */
-/* grid 1 */
-/* image styling start */
-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 100%;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.image {
-    /* background-color: #032604; */
-    display: flex;
-}
-
-.image img {
-    height: 90vh;
-    margin: auto
-}
-
-/* grid 2 */
-/* content start */
-.content {
-    background-color: #032604;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-}
-
-.content h2 {
-    text-transform: uppercase;
-    font-size: 36px;
-    letter-spacing: 6px;
-    opacity: 0.9;
-}
-
-.content span {
-    height: 0.5px;
-    width: 80px;
-    background: #777;
-    margin: 30px 0;
-}
-
-.content p {
-    padding-bottom: 15px;
-    font-weight: 300;
-    opacity: 0.7;
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 1.7;
-    color: #ffffff
-}
-
-.links {
-    margin: 15px 0;
-}
-
-.links li {
-    border: 2px solid #fff;
-    list-style: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    width: 160px;
-    text-align: center;
-}
-
-.links li a {
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-}
-
-.links li:hover {
-    border-color: #008204;
-}
-
-.vertical-line {
-    height: 30px;
-    width: 3px;
-    background: #008204;
-    margin: 0 auto;
-}
-
-.icons {
-    display: flex;
-    padding: 15px 0;
-}
-
-.icons li {
-    display: block;
-    padding: 5px;
-    margin: 5px;
-}
-
-.icons li i {
-    font-size: 26px;
-    opacity: 0.9;
-}
-
-.icons li i:hover {
-    cursor: pointer;
-}
-
-/*****************/
-
-@media(max-width: 900px) {
-    section {
-        grid-template-columns: 1fr;
-        width: 100%;
-        border-radius: none;
-    }
-
-    .image {
-        height: 100vh;
-        border-radius: none;
-    }
-
-    .content {
-        height: 100vh;
-        border-radius: none;
-    }
-
-    .content h2 {
-        font-size: 20px;
-        margin-top: 50px;
-    }
-
-    .content span {
-        margin: 20px 0;
-    }
-
-    .content p {
-        font-size: 14px;
-    }
-
-    .links li a {
-        font-size: 14px;
-    }
-
-    .links {
-        margin: 5px 0;
-    }
-
-    .links li {
-        padding: 6px 10px;
-    }
-
-    .icons li i {
-        font-size: 15px;
-    }
 }
 
 
