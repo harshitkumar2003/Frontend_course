@@ -2,6 +2,10 @@
 /*****************/
 
 @media(max-width: 900px) {
+    .logo img {
+        height: auto;
+        width: 5rem;
+    }
     section {
         grid-template-columns: 1fr;
         width: 100%;

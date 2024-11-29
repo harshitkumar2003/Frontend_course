@@ -5,10 +5,9 @@
     padding: 0;
 }
 
-/* page height for all html */
 body,
 html {
-     box-sizing: border-box;
+    box-sizing: border-box;
     height: 100%;
 }
 
@@ -29,7 +28,6 @@ html {
 /* left for logo */
 .left {
     padding-left: 15px;
-    /* border: 2px solid rgb(190, 218, 27); */
     position: relative;
 }
 
@@ -38,15 +36,12 @@ html {
 }
 
 .logo img {
-    /* logo position centre through margin */
-    /* logo position left through position relative */
     height: auto;
     width: 5.5rem;
 }
 
 /*mid for navbar */
 .mid {
-    /* giving margin auto for centre the alignment of object */
     margin: auto;
     /* giving some padding (space) for clearity  */
     padding: 1rem;
@@ -66,7 +61,7 @@ html {
     cursor: pointer;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: .9rem;
     margin: 0 2rem 0 2rem;
 }
 
