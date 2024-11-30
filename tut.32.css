@@ -8,7 +8,7 @@
 body,
 html {
     box-sizing: border-box;
-    height: 100%;
+    max-height: 100%;
 }
 
 /* ============================
@@ -120,7 +120,8 @@ html {
 /* image styling */
 .hero-image {
     background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
-    height: 100%;
+    max-width: 100vh;
+    max-width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
