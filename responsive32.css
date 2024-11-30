@@ -6,10 +6,12 @@
         height: auto;
         width: 5rem;
     }
+
     .navlinks ul li a {
         font-size: 1rem;
         margin: 0 1.2rem 0 1.2rem;
     }
+
     section {
         grid-template-columns: 1fr;
         width: 100%;
@@ -61,15 +63,41 @@
         height: auto;
         width: 5rem;
     }
+
     .navlinks ul li a {
         font-size: 1rem;
         margin: 0 1.2rem 0 1.2rem;
     }
 
-.navlinks ul {
-    margin: auto;
-    /* giving some padding (space) for clearity  */
-    padding: 1rem;
-    display: none;
+    .navlinks ul {
+        margin: auto;
+        /* giving some padding (space) for clearity  */
+        padding: 1rem;
+        display: none;
+    }
+
+    .button {
+        margin: auto;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 20px;
+        gap: 5px;
+        background-color: #032604;
+        outline-offset: -3px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        transition: 400ms;
+    }
+
+    .button .text {
+        color: white;
+        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        transition: 400ms;
+    }
 }
 }
