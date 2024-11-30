@@ -121,7 +121,6 @@ html {
 .hero-image {
     background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
     height: 100vh;
-    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +206,7 @@ html {
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 100%;
+    max-height: 100%;
     width: 100%;
     margin: 0 auto;
 }
