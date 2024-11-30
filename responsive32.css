@@ -78,25 +78,12 @@
 
     .button {
         margin: auto;
-        height: 3rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 9px 20px;
-        gap: 5px;
-        background-color: #032604;
-        outline-offset: -3px;
-        border-radius: 25px;
-        border: none;
-        cursor: pointer;
-        transition: 400ms;
+        height: 2.7rem;
+        padding: 7px 16px;
+        gap: 4px;
     }
 
     .button .text {
-        color: white;
-        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 500;
-        font-size: 1.1rem;
-        transition: 400ms;
+        font-size: .9rem;
     }
 }
