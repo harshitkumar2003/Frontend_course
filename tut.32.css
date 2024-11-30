@@ -98,6 +98,10 @@ html {
     font-size: 1.1rem;
     transition: 400ms;
 }
+.button svg{
+    color: white;
+    transition: 400ms;
+}
 
 .button:hover {
     background-color: transparent;
