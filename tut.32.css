@@ -402,7 +402,7 @@ section {
 }
 
 .footer .footer-section a:hover {
-    text-decoration: underline;
+    text-decoration: wavy;
 }
 
 .footer .newsletter {
