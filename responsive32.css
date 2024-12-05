@@ -87,3 +87,103 @@
         font-size: .9rem;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content h2 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .feedback-box {
+        width: 45%;
+    }
+
+    .about-section h2 {
+        font-size: 30px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .team-member {
+        width: 45%;
+    }
+
+    .footer .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .newsletter input[type="email"] {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar img {
+        height: 40px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .content {
+        padding: 50px 10px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .feedback-box {
+        width: 90%;
+    }
+
+    .about-section h2 {
+        font-size: 25px;
+    }
+
+    .about-section p {
+        font-size: 14px;
+    }
+
+    .team-member {
+        width: 90%;
+    }
+
+    .footer .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .newsletter input[type="email"] {
+        width: 90%;
+    }
+}
