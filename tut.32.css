@@ -26,7 +26,7 @@ body {
 
 }
 
-/* left for logo */
+/*===========left column for logo=================*/
 .left {
     padding-left: 15px;
     position: relative;
@@ -41,41 +41,36 @@ body {
     width: 5.5rem;
 }
 
-/*mid for navbar */
+/*==============mid column for navbar=============*/
 .mid {
     margin: auto;
-    /* giving some padding (space) for clearity  */
     padding: 1rem;
 }
 
 .navlinks ul {
-    /* display flex for floating all elements horizontally inside */
     display: flex;
-    /* list style none for removing points */
     list-style: none;
 }
 
 .navlinks ul li a {
-    /* removing underline */
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
-    font-size: 1.1rem;
     margin: 0 2rem 0 2rem;
+    text-decoration: none;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .navlinks ul li a:hover {
-    color: rgb(3, 69, 4);
+    color: rgb(61, 176, 63);
 }
 
-/* right for button */
+/*============right column for button=============*/
 .right {
     padding-right: 15px;
 }
 
-/* header button styling */
 .button {
     margin: auto;
     height: 3rem;
@@ -100,7 +95,7 @@ body {
     transition: 400ms;
 }
 
-.button svg{
+.button svg {
     color: white;
     transition: 400ms;
 }
