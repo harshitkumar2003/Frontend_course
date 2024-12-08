@@ -110,13 +110,9 @@ body {
 ----------------------------------------------------*/
 
 /*==========image css=============*/
-.hero-image {
-    background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+#hero-video {
+    max-height: 20%;
+    max-width: 100%;
 }
 
 .hero-text h1 {
@@ -192,7 +188,6 @@ body {
 -------------about page styling start-------------------
 ------------------------------------------------------*/
 .content {
-    /* background-color: #032604; */
     background-image: url(https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBncmVlbnxlbnwwfHwwfHx8MA%3D%3D);
     background-position: center;
     background-repeat: no-repeat;
