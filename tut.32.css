@@ -84,13 +84,13 @@ body {
     border-radius: 25px;
     border: none;
     cursor: pointer;
-    transition: 500ms;
+    transition: 400ms;
 }
 
 .button .text {
     color: white;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.1rem;
     transition: 400ms;
 }
@@ -105,15 +105,11 @@ body {
     border: 1px solid hsl(136, 33%, 94%);
 }
 
-.button:hover .text {
-    color: hsl(0, 0%, 99%);
-}
+/*----------------------------------------------------
+--------------hero page styling start-----------------
+----------------------------------------------------*/
 
-/* ============================
-====hero page styling start====
-============================== */
-
-/* image styling */
+/*==========image css=============*/
 .hero-image {
     background-image: url(https://wallpapers.com/images/hd/plain-dark-green-wallpaper-4py2q8q4fvne42p7.jpg);
     height: 100vh;
