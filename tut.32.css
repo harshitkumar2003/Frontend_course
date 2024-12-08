@@ -208,7 +208,7 @@ section {
     grid-template-columns: 1fr 1fr;
     max-height: 100%;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .image {
@@ -219,7 +219,7 @@ section {
 .image img {
     margin: auto;
     width: auto;
-    height: auto;
+    height: 100%;
 }
 
 /* grid 2 */
@@ -316,7 +316,10 @@ section {
 ================================================ */
 
 .team-section {
+    position: relative;
+    bottom: auto;
     background-color: rgb(35, 35, 35);
+    height: fit-content;
     color: rgb(255, 255, 255);
     padding: 50px 20px;
     text-align: center;
@@ -330,7 +333,7 @@ section {
 .team-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
