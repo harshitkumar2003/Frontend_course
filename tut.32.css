@@ -192,7 +192,11 @@ body {
 -------------about page styling start-------------------
 ------------------------------------------------------*/
 .content {
-    background-color: #032604;
+    /* background-color: #032604; */
+    background-image: url(https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBncmVlbnxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -265,7 +269,7 @@ body {
 .icons li {
     display: block;
     padding: 5px;
-    margin: 5px;
+    margin: 15px;
 }
 
 .icons li i {
