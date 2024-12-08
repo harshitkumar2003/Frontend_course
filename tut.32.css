@@ -199,18 +199,12 @@ html {
 /* ============================
 ===about page styling start====
 ============================= */
-
-/* section styling */
-/* grid 1 */
-/* image styling start */
 section {
     height: 100%;
     width: auto;
     margin: auto;
 }
 
-/* grid 2 */
-/* content start */
 .content {
     background-color: #032604;
     display: flex;
