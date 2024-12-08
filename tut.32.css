@@ -84,7 +84,7 @@ body {
     border-radius: 25px;
     border: none;
     cursor: pointer;
-    transition: 400ms;
+    transition: 500ms;
 }
 
 .button .text {
