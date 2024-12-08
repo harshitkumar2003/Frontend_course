@@ -192,9 +192,14 @@ body {
     transform: scale(100) translateX(2px);
 }
 
+/*------------------divider line---------------*/
+.d-line{
+    height: 3px solid white;
+}
+
 
 /* -----------------------------------------------------
--------------about page styling start-------------------
+-------------service page styling start-------------------
 ------------------------------------------------------*/
 .content {
     /* background-color: #032604; */
