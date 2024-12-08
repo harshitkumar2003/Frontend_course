@@ -1,21 +1,22 @@
-/* CSS styling start  */
-/* universal margin and padding  */
+/* -----------------------------------------
+----------CSS styling start ----------------
+----------------------------------------- */
+
+/* ========universal styling============*/
 * {
     margin: 0;
     padding: 0;
 }
 
-body,
-html {
-    box-sizing: border-box;
+body {
     height: 100%;
 }
 
-/* ============================
-======navbar styling start=====
-============================ */
+/*----------------------------------------------
+----------------navbar styling start------------
+----------------------------------------------*/
 
-/* header for 3 div having logo, navbar, button */
+/*==========header for 3 div having logo, navbar, button===========*/
 .header {
     background-color: rgb(0, 0, 0);
     display: flex;
