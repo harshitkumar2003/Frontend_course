@@ -95,7 +95,7 @@
     .footer .newsletter input[type="email"] {
         width: 90%;
     }
-}
+} 
 
 @media(max-width: 700px) {
     .logo img {
