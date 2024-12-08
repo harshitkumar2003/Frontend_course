@@ -113,6 +113,9 @@ body {
 #hero-video {
     height: auto;
     width: 100%;
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
 }
 
 .hero-text {
