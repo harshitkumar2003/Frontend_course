@@ -204,22 +204,9 @@ html {
 /* grid 1 */
 /* image styling start */
 section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-height: 100%;
-    width: 100%;
-    margin: auto;
-}
-
-.image {
-    border: 3px solid blue;
-    display: flex;
-}
-
-.image img {
-    margin: auto;
-    width: auto;
     height: 100%;
+    width: auto;
+    margin: auto;
 }
 
 /* grid 2 */
@@ -316,8 +303,6 @@ section {
 ================================================ */
 
 .team-section {
-    position: relative;
-    bottom: auto;
     background-color: rgb(35, 35, 35);
     height: fit-content;
     color: rgb(255, 255, 255);
