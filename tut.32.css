@@ -201,8 +201,6 @@ html {
 ============================= */
 section {
     height: 100%;
-    width: auto;
-    margin: auto;
 }
 
 .content {
