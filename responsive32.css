@@ -83,6 +83,20 @@
         font-size: 16px;
     }
 
+    .reviews-container {
+        justify-content: center;
+    }
+
+    .review-card {
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+
+
     .team-member {
         width: 45%;
     }
@@ -95,7 +109,7 @@
     .footer .newsletter input[type="email"] {
         width: 90%;
     }
-} 
+}
 
 @media(max-width: 700px) {
     .logo img {
