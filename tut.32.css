@@ -296,12 +296,20 @@ body {
 /* ================================================
 =================testimonial section===============
 ================================================ */
-
 /* Section styling */
+
 .testimonials {
-    max-width: 1200px;
+    background: #000;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
+}
+
+.section-title {
+    color: #fff;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2rem;
 }
 
 /* Container for reviews */
