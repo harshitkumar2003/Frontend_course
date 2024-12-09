@@ -181,6 +181,22 @@
         font-size: 14px;
     }
 
+    .review-card {
+        padding: 15px;
+    }
+
+    .review-text {
+        font-size: 0.95rem;
+    }
+
+    .reviewer-name {
+        font-size: 1rem;
+    }
+
+    .reviewer-title {
+        font-size: 0.85rem;
+    }
+
     .team-member {
         width: 90%;
     }
