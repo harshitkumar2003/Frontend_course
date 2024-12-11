@@ -337,8 +337,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     flex: 1;
-    height: 25rem;
-    min-width: 150px;
+    max-height: 34rem;
+    min-width: 111px;
     max-width: 350px;
     text-align: center;
     transition: transform 0.3s ease;
