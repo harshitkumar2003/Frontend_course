@@ -412,62 +412,63 @@ body {
     height: 270px;
     perspective: 1000px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .flip-card-inner {
+}
+
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-  }
-  
-  .flip-card-front, .flip-card-back {
+}
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     padding: 5px;
     border-radius: 2em;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
+}
+
+.flip-card-front {
     background-color: #f1f1f1;
     /* border: 2px solid #353333; */
-  }
-  
-  .profile-image img{
+}
+
+.profile-image img {
     background-color: transparent;
     border: none;
     margin-top: 15px;
     border-radius: 50%;
     width: 120px;
     height: 120px;
-  }
-  
-  .name {
+}
+
+.name {
     margin-top: 15px;
     font-size: 1.5em;
     color: #000000;
     font-weight: bold;
-  }
-  
-  .flip-card-back {
+}
+
+.flip-card-back {
     background-color: #000000;
     border: 4px solid #ffffff;
     transform: rotateY(180deg);
     padding: 11px;
-  }
-  
-  .description {
+}
+
+.description {
     margin-top: 10px;
     font-size: .9em;
     letter-spacing: 1px;
     color: white
-  }
-  
-  .socialbar {
+}
+
+.socialbar {
     background-color: transparent;
     border-radius: 3em;
     width: 90%;
@@ -475,23 +476,23 @@ body {
     margin-top: 11px;
     word-spacing: 24px;
     color: white;
-  }
-  
-  .socialbar i {
+}
+
+.socialbar i {
     transition: 0.4s;
     width: 20px;
     height: 20px;
     color: #6f6a6a
-  }
-  
-  .socialbar i:hover {
+}
+
+.socialbar i:hover {
     color: white;
-  }
-  
-  .flip-card:hover .flip-card-inner {
+}
+
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
+}
+
 
 
 /* ================================================
