@@ -24,7 +24,8 @@ body {
 /*==========header for 3 div having logo, navbar, button===========*/
 .header {
     /* background-color: rgb(0, 0, 0); */
-    filter: grayscale(10);    background: black;
+    filter: grayscale(10);
+    background: black;
     display: flex;
     padding: 5px;
     align-items: center;
@@ -117,7 +118,7 @@ body {
 
 /*==========image css=============*/
 .hero-image {
-    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);    
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,8 +204,8 @@ body {
 -------------service page styling start-------------------
 ------------------------------------------------------*/
 .content {
-  background-image: url(https://img.freepik.com/free-psd/modern-abstract-deep-blue-gradient-background_84443-3754.jpg?ga=GA1.1.1404320647.1733895657&semt=ais_hybrid);
-  
+    background-image: url(https://img.freepik.com/free-psd/modern-abstract-deep-blue-gradient-background_84443-3754.jpg?ga=GA1.1.1404320647.1733895657&semt=ais_hybrid);
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
