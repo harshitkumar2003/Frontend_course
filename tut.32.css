@@ -306,17 +306,18 @@ body {
     padding: 20px;
 }
 
-.hrr {
+.hline {
+    /* margin: auto; */
     height: 0.5px;
     width: 80px;
     background: #777;
-    margin: 30px 0;
+    margin: 40px auto 40px;
 }
 
 .section-title {
     color: #fff;
     text-align: center;
-    margin: 40px 0;
+    margin-top: 50px;
     font-size: 2rem;
 }
 
@@ -412,9 +413,15 @@ body {
     padding: 20px;
     margin: 10px;
     width: 210px;
+    perspective: 1000px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
     transition: transform 0.8s, box-shadow 0.3s;
+}
+
+.team-member-back {
+    transform: rotateY(180deg);
 }
 
 .team-member:hover {
@@ -422,7 +429,15 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.team-member img {
+.team-member-front ,.team-member-back {
+position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.team-member-front img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
