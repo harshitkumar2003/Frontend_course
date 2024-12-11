@@ -420,13 +420,18 @@ body {
     transition: transform 0.8s, box-shadow 0.3s;
 }
 
-.team-member-back {
-    transform: rotateY(180deg);
-}
-
 .team-member:hover {
     transform: rotateY(150deg)scale(1.50) ;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-member-back {
+    transform: rotateY(180deg);
+    background: #514e4e;
+}
+
+.team-member-back .social {
+    list-style: none;
 }
 
 .team-member-front ,.team-member-back {
