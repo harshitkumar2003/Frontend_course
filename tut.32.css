@@ -406,67 +406,98 @@ body {
     flex-wrap: wrap;
 }
 
-.team-member {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 15px;
-    padding: 20px;
-    margin: 10px;
-    width: 210px;
+.flip-card {
+    background-color: transparent;
+    width: 245px;
+    height: 270px;
     perspective: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s;
     transform-style: preserve-3d;
-    transition: transform 0.8s, box-shadow 0.3s;
-}
-
-.team-member:hover {
-    transform: rotateY(150deg)scale(1.50) ;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.team-member-back {
-    transform: rotateY(180deg);
-    background: #514e4e;
-}
-
-.team-member-back .social {
-    list-style: none;
-}
-
-.team-member-front ,.team-member-back {
-position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-.team-member-front img {
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 2em;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #f1f1f1;
+    /* border: 2px solid #353333; */
+  }
+  
+  .profile-image img{
+    background-color: transparent;
+    border: none;
+    margin-top: 15px;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-.team-member h3 {
-    font-size: 20px;
-    margin: 10px 0 5px;
-}
-
-.team-member p {
-    font-size: 16px;
-    margin: 5px 0;
-}
-
-.team-member a {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .name {
+    margin-top: 15px;
+    font-size: 1.5em;
     color: #000000;
-    text-decoration: none;
-    
-}
+    font-weight: bold;
+  }
+  
+  .flip-card-back {
+    background-color: #000000;
+    border: 4px solid #ffffff;
+    transform: rotateY(180deg);
+    padding: 11px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: .9em;
+    letter-spacing: 1px;
+    color: white
+  }
+  
+  .socialbar {
+    background-color: transparent;
+    border-radius: 3em;
+    width: 90%;
+    padding: 14px;
+    margin-top: 11px;
+    word-spacing: 24px;
+    color: white;
+  }
+  
+  .socialbar i {
+    transition: 0.4s;
+    width: 20px;
+    height: 20px;
+    color: #6f6a6a
+  }
+  
+  .socialbar i:hover {
+    color: white;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
 
-.team-member a:hover {
-    text-decoration: underline;
-}
+
+/* ================================================
+=================footer section======================
+================================================ */
+
 
 .footer {
     background-color: rgba(0, 0, 0);
