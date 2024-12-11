@@ -402,7 +402,7 @@ body {
 .team-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -415,11 +415,11 @@ body {
     width: 210px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.8s, box-shadow 0.3s;
 }
 
 .team-member:hover {
-    transform: scale(1.05);
+    transform: rotateY(150deg)scale(1.50) ;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -442,6 +442,7 @@ body {
 .team-member a {
     color: #000000;
     text-decoration: none;
+    
 }
 
 .team-member a:hover {
