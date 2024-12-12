@@ -12,12 +12,6 @@
         margin: 0 1.2rem 0 1.2rem;
     }
 
-    section {
-        grid-template-columns: 1fr;
-        width: 100%;
-        border-radius: none;
-    }
-
     .content {
         height: 100vh;
         border-radius: none;
@@ -51,14 +45,27 @@
     .icons li i {
         font-size: 15px;
     }
+
+    .team-section h2 {
+        font-size: 36px;
+    }
+
+    .flip-card {
+        max-width: 220px;
+        min-width: 180px;
+    }
+
+    .profile-image img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 768px) {
-    /* .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    } */
-
     .content h1 {
         font-size: 40px;
     }
@@ -95,8 +102,8 @@
         font-size: 1.5rem;
     }
 
-    .team-member {
-        width: 45%;
+    .team-container {
+        flex-wrap: wrap;
     }
 
     .footer .footer-section {
@@ -136,6 +143,24 @@
 
     .button .text {
         font-size: .9rem;
+    }
+
+    .team-section h2 {
+        font-size: 32px;
+    }
+
+    .flip-card {
+        max-width: 200px;
+        min-width: 160px;
+    }
+
+    .profile-image img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .name {
+        font-size: 1.2em;
     }
 }
 
@@ -197,8 +222,30 @@
         font-size: 0.85rem;
     }
 
-    .team-member {
-        width: 90%;
+    .team-section {
+        padding: 30px 10px;
+    }
+
+    .team-section h2 {
+        font-size: 28px;
+    }
+
+    .flip-card {
+        max-width: 180px;
+        min-width: 140px;
+    }
+
+    .profile-image img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 1em;
+    }
+
+    .description {
+        font-size: 0.8em;
     }
 
     .footer .footer-section {
