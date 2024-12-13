@@ -531,7 +531,8 @@ body {
 }
 
 .footer .footer-section a:hover {
-    text-decoration: wavy;
+color: #bec0be;
+text-decoration-line: overline;
 }
 
 .footer .newsletter {
