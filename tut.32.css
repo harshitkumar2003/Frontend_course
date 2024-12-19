@@ -278,8 +278,8 @@ body {
 }
 
 .icons :hover{
-    transform: scale(1.2);
-    fill: rgb(255, 255, 255);
+    transform: scale(1.6);
+    transition: all ease-in 0.3s;
 }
 
 .icons li {
