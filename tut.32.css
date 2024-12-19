@@ -277,9 +277,9 @@ body {
     padding: 15px 0;
 }
 
-.icons {
+.icons :hover{
     transform: scale(1.2);
-    /* fill: rgb(255, 255, 255); */
+    fill: rgb(255, 255, 255);
 }
 
 .icons li {
