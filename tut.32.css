@@ -277,7 +277,7 @@ body {
     padding: 15px 0;
 }
 
-.icons :hover{
+.icons :hover {
     transform: scale(1.6);
     transition: all ease-in 0.3s;
 }
