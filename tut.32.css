@@ -69,7 +69,7 @@ body {
     cursor: pointer;
 }
 
-/* .navlinks ul li a:hover { */
+.navlinks ul li a:hover {
     color: rgb(61, 176, 63);
 }
 
