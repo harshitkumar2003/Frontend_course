@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="0; url=http://between.com">
-    <title>Document</title>
+    <title>wev development Task</title>
 </head>
 <body>
     
+<div class="ring">
+    <div class="segment red"></div>
+    <div class="segment blue"></div>
+    <div class="segment green"></div>
+    <div class="segment yellow"></div>
+</div>
+
+CSS (styles.css):
+css
+Copy
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.ring {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.segment {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    transform-origin: 100% 100%;
+}
+
+.red {
+    background-color: red;
+    transform: rotate(0deg);
+}
+
+.blue {
+    background-color: blue;
+    transform: rotate(90deg);
+}
+
+.green {
+    background-color: green;
+    transform: rotate(180deg);
+}
+
+.yellow {
+    background-color: yellow;
+    transform: rotate(270deg);
+}
+
+/* Hover effect to rotate the ring */
+.ring:hover {
+    animation: rotateRing 2s linear infinite;
+}
+
+@keyframes rotateRing {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+Explanation:
+HTML Structure: We have a <div class="ring"> that contains four child <div> elements, each representing a colored segment (red, blue, green, and yellow).
+
+CSS Styles:
+
+The .ring is a circular container with a width and height of 200px and a border-radius of 50% to make it round.
+The .segment classes are positioned absolutely within the ring to take up 50% of the space, each rotated by 90 degrees (red at 0°, blue at 90°, etc.).
+The hover effect is achieved by adding a CSS @keyframes animation to rotate the entire .ring element when hovered. It smoothly rotates from 0 to 360 degrees in a circular motion.
+When you hover over the ring, it will rotate continuously in a smooth circular motion.
+
+
+
+By messaging ChatGPT, yo
 </body>
 </html>
