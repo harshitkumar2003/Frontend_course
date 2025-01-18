@@ -1,23 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="0; url=http://between.com">
     <title>wev development Task</title>
 </head>
+
 <body>
 
     <style>
-    
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .ring {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .segment {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color: transparent;
+            transform-origin: 100% 100%;
+        }
+
+        .red {
+            background-color: red;
+            transform: rotate(0deg);
+        }
+
+        .blue {
+            background-color: blue;
+            transform: rotate(90deg);
+        }
+
+        .green {
+            background-color: green;
+            transform: rotate(180deg);
+        }
+
+        .yellow {
+            background-color: yellow;
+            transform: rotate(270deg);
+        }
+
+        /* Hover effect to rotate the ring */
+        .ring:hover {
+            animation: rotateRing 2s linear infinite;
+        }
+
+        @keyframes rotateRing {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
     </style>
-    
-<div class="ring">
-    <div class="segment red"></div>
-    <div class="segment blue"></div>
-    <div class="segment green"></div>
-    <div class="segment yellow"></div>
-</div>
+
+    <div class="ring">
+        <div class="segment red"></div>
+        <div class="segment blue"></div>
+        <div class="segment green"></div>
+        <div class="segment yellow"></div>
+    </div>
 
 </body>
+
 </html>
