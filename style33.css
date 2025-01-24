@@ -45,7 +45,10 @@ nav {
 
 /* Hero Section Styles */
 .hero {
-    background: linear-gradient(135deg, #6e2fe3, #0cabf7);
+    background-image: url(https://cdn.dorahacks.io/static/files/1944579f924493faa7234dd40db8f4dc.png);
+    background-position: center;
+    background-size: cover;
+    height: 18rem;
     color: white;
     text-align: center;
     padding: 4rem 2rem;
