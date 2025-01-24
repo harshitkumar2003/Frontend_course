@@ -66,15 +66,15 @@ nav {
     margin: auto;
 }
 
-.register {
+.hreg {
     display: flex;
     padding: 0;
 }
 
-.register p {
+.hreg p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-  
+
     margin: .9rem 2rem;
 }
 
