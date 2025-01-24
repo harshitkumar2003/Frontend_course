@@ -58,11 +58,12 @@ nav {
 .cta-button {
     background-color: #2169e4;
     color: #ffffff;
-    padding: 1rem 3rem;
+    padding: .8rem 3rem;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
+    margin: auto;
 }
 
 .register {
