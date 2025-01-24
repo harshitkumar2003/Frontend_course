@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon 2023: Innovate and Create</title>
+    <meta name="description" content="Join us for an exciting hackathon event where creativity meets technology!" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <a href="/" class="logo">Hackathon 2023</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#register">Register</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Hackathon 2023: Innovate and Create</h1>
+            <p>Join us for a weekend of coding, creativity, and collaboration!</p>
+            <a href="#register" class="cta-button">Register Now</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About the Event</h2>
+            <p>Hackathon 2023 is a 48-hour event where developers, designers, and innovators come together to create amazing projects. Whether you're a seasoned pro or a beginner, there's a place for you!</p>
+        </section>
+
+        <section id="schedule" class="schedule">
+            <h2>Event Schedule</h2>
+            <ul>
+                <li><strong>Day 1:</strong> Kickoff & Team Formation</li>
+                <li><strong>Day 2:</strong> Hacking Begins!</li>
+                <li><strong>Day 3:</strong> Final Presentations & Awards</li>
+            </ul>
+        </section>
+
+        <section id="register" class="register">
+            <h2>Registration</h2>
+            <p>Secure your spot for Hackathon 2023!</p>
+            <form action="/register" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                
+                <label for="team">Team Name (if applicable):</label>
+                <input type="text" id="team" name="team" />
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <p>Email: <a href="mailto:info@hackathon2023.com">info@hackathon2023.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hackathon 2023. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/hackathon2023" target="_blank">Twitter</a>
+            <a href="https://instagram.com/hackathon2023" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/company/hackathon2023" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
 </body>
+
 </html>
