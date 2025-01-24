@@ -65,6 +65,11 @@ nav {
     font-size: 2rem;
     color: rgb(29, 108, 165);
 }
+.prize h4 {
+    margin: 0%;
+    font-size: .9rem;
+    color: rgb(225, 28, 6);
+}
 
 .cta-button {
     background-color: #2169e4;
