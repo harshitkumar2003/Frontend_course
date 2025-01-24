@@ -55,6 +55,17 @@ nav {
     padding: 4rem 2rem;
 }
 
+.prize h2 {
+    margin: 0%;
+    font-size: 1rem;
+}
+
+.prize h1 {
+    margin: 0%;
+    font-size: 2rem;
+    color: rgb(29, 108, 165);
+}
+
 .cta-button {
     background-color: #2169e4;
     color: #ffffff;
@@ -83,6 +94,7 @@ nav {
 }
 
 /* About Section Styles */
+.prize,
 .hreg,
 .about,
 .schedule,
