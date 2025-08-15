@@ -50,7 +50,8 @@ body {
 
 img {
   /*box-shadow: 0 0 0 40px #fff;
-  */ /*?filtershadowhere*/
+  */
+  /*?filtershadowhere*/
 
   -webkit-filter: drop-shadow(-10px 10px 0 #f90000);
 }
