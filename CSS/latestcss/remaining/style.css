@@ -81,10 +81,6 @@ img {
   border-radius: 5px;
   font-size: 24px;
   font-weight: bold;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 /* new features here  */
@@ -108,15 +104,10 @@ h1 {
     left: 0%;
     /*&:;
     :before ;
-    -webkit-writing-mode: vertical-lr;
-    -ms-writing-mode: vertical-lr;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-{
+    :after {
       content: "*";
     } */
+
   }
   & p {
     font-size: 18px;
