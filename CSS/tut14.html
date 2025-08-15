@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selctors</title>
+    <style>
+        /* element selector is come when we write a style in paragraph  */
+        /* class selector is come when we write a class in element  */
+        /* id selector is come when we write a id in element  */
+        /* group selector is come when we change a both or multiple style element in one line  */
+    
+     /* choose any one in  */
+     
+     /* Element selector */
+    P{
+      border: 2px solid red;
+    }
+    
+    /* id selector */
+    #firstparagraph{
+        color: rgb(14, 231, 40);
+        background-color: blue
+    }
+
+    /* Class selector */
+        .redelement{
+            color: red;
+            background-color: aquamarine;
+        }
+        
+        /* Grouping selector */
+        footer,span{
+            color: blueviolet;
+            background-color: chartreuse;
+        }   
+    </style>
+</head>
+<body>
+    <!-- headline  -->
+    <h2>CSS Selectors</h2>
+    <p id="firstparagraph">This is a simple paragraph to demonstrate css Selectors</p>
+    <p id="secondparagraph" class="redelement">This is a another paragraph to demonstrate css Selectors</p>
+    <div>
+        <!-- paragraph with the space gap  -->
+        <p >yet another simple paragraph to demonstrate css Selectors</p>
+        </div>
+        <span>this is a span</span>
+        <footer>this is footer</footer>
+</body>
+</html>
