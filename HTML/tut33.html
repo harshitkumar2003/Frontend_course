@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web dev task</title>
+    <style>
+        * {
+            height: auto;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .ring {
+            width: 100px;
+            height: 100px;
+            border: 10px solid red;
+            /* Initial border color */
+            border-radius: 50%;
+            position: relative;
+            transition: transform 0.5s ease;
+        }
+
+        /* Rotate colors on hover */
+        .ring:hover {
+            animation: rotateColors 3s infinite;
+
+            @keyframes rotateColors {
+                0% {
+                    border-color: red;
+                }
+
+                25% {
+                    border-color: blue;
+                }
+
+                50% {
+                    border-color: green;
+                }
+
+                75% {
+                    border-color: yellow;
+                }
+
+                100% {
+                    border-color: red;
+                    /* Reset to the initial color */
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+    </div>
+
+</body>
+
+</html>
