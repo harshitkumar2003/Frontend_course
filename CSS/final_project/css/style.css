@@ -131,10 +131,6 @@ section {
   background-color: var(--supporting-color);
   font-size: 2.4rem;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   color: var(--hero-heading-color);
 }
 
@@ -144,10 +140,6 @@ section {
   background-color: var(--main-color);
   color: var(--white-color);
   border-radius: 0.6rem;
-  -webkit-border-radius: 0.6rem;
-  -moz-border-radius: 0.6rem;
-  -ms-border-radius: 0.6rem;
-  -o-border-radius: 0.6rem;
 }
 
 /* states  */
@@ -170,7 +162,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.8rem 2.4rem;
+  padding: 1rem 2.4rem;
 }
 
 .section-navbar .navbar ul {
@@ -194,10 +186,6 @@ section {
       width: 0%;
       border-bottom: 0.2rem solid var(--main-color);
       transition: all 0.3s linear;
-      -webkit-transition: all 0.3s linear;
-      -moz-transition: all 0.3s linear;
-      -ms-transition: all 0.3s linear;
-      -o-transition: all 0.3s linear;
     }
   }
 
