@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- bakend.php is not an any tag it is for only when user fill the detail and press submit then where the data is go or stored but in the website making we have to drop a file or any documnet any server those have already a data or that stored the data in the file or document or server what the user fill -->
+     
+
+     <!-- heading of the form  -->
+       <h1>Registration Form</h1>
+
+       <!-- backend user we can leave it blank with adding hashtag (#) -->
+    <form action="backend.php">
+
+        <!-- labels for name it will shown on display  -->
+        <label for="name"> Name</label>
+
+        <!-- div is a block element that block the line and start do write with another line -->
+        <div>
+            <!-- input is the tag what the series of details Developer wants -->
+            <input type="text" name="my name" id="name">
+        </div>
+        <br>
+        <!-- label for emails -->
+        <label for="email">Email</label>
+
+        <!-- block element div for input email -->
+        <div>
+            <input type="email" name="my email" id="email">
+        </div>
+
+        <!-- break -->
+        <br>
+
+        <!-- label for phone  -->
+        <label for="number">Phone Number</label>
+        <div>
+            <input type="digit" name="my number" id="number">
+        </div>
+        <br>
+
+        <!-- div with 4 options for selecting college in feature we can add more options -->
+        <div>
+            <label for="college"></label>
+            <!-- select is used for the user can choose what they want in multiple option -->
+            College <br> <select name="my college" id="college">
+                <!-- option is used for the data what the options show to user -->
+                <option value="MCM"> Meerut College Meerut</option>
+                <option value="DN"> DN College Meerut</option>
+                <option value="DLCM"> Deewan Law College Meerut</option>
+                <option value="MIET"> Meerut Institute Of Engeenering Technology</option>
+            </select>
+        </div>
+        <br>
+         
+        <!-- adding date element  -->
+        <label for="date">Date Of Admission</label>
+        <div>
+            <input type="date" name="my date" id="date">
+        </div>
+        <br>
+        <label for="password">Password</label>
+        <div>
+            <input type="password" name="my password" id="password">
+        </div>
+        <br>  
+        <div>
+            Male <input type="radio" name="my gender">
+            Female <input type="radio" name="my gender">
+            Other <input type="radio" name="my gender">
+        </div>
+        <br>
+        <div>
+            terms and conditions <input type="checkbox" name="my terms and conditions">
+        </div>
+        <br>
+        <div>
+            Remember me <input type="checkbox" name=",my remember me">
+        </div>
+        <br>
+        <label for="mytext">Write About Yuorself</label>
+        <div>
+            <textarea name="my text" cols="20" rows="5" id="mytext"></textarea>
+        </div>
+        <div>
+            <!-- button is used for when the details are filled by the user and they want to move on next page -->
+            <button type="submit">Submit</button> <button type="reset">Reset</button>
+        </div>
+</body>
+
+</html>
