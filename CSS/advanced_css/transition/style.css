@@ -101,10 +101,6 @@ a {
   transition-timing-function: linear;
   transition-delay: 2s; */
   transition: all 1s linear;
-  -webkit-transition: all 1s linear;
-  -moz-transition: all 1s linear;
-  -ms-transition: all 1s linear;
-  -o-transition: all 1s linear;
 }
 
 .hero-content a:hover {
@@ -117,11 +113,8 @@ a {
 
 img {
   transition: scale 1s linear;
-  -webkit-transition: scale 1s linear;
-  -moz-transition: scale 1s linear;
-  -ms-transition: scale 1s linear;
-  -o-transition: scale 1s linear;
 }
+
 img:hover {
   scale: 1.2;
 }

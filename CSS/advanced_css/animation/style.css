@@ -54,7 +54,7 @@ h1 {
   height: 100px;
   background-color: #4861ec;
   box-shadow: 0 0 0px 15px #353f6d;
-  margin: 50px;
+  margin: 30px;
   display: inline-block;
   border-radius: 50%;
   /*? animation start here  */
@@ -94,20 +94,24 @@ h1 {
     background-color: #ffbb5cb5;
     transform: translate(200px, 0%);
   }
+
   25% {
     background-color: #fcbf49;
-    transform: translate(calc(90vw - 10%));
+    transform: translate(calc(90vw - 20%));
   }
+
   50% {
     background-color: #000000;
-    transform: translate(calc(90vw - 10%), 500px);
+    transform: translate(calc(90vw - 10%), 200%);
   }
+
   75% {
     background-color: #fcbf49;
-    transform: translate(20%, 500px);
+    transform: translate(20%, 200%);
   }
+
   100% {
-    background-color: #ffbb5cb5;
+    background-color: #423f3bb5;
     transform: translate(20%, 0%);
   }
 }
