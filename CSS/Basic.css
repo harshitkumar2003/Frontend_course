@@ -1,0 +1,41 @@
+/* what ia CSS?
+CSS (Cascading Style Sheets) is a styling language used to control the layout and appearance of
+web pages written in HTML or XML. It is used to separate the presentation of a document from its
+structure, making it easier to maintain and update the layout of a website. */
+
+/* Basic CSS styles for a simple web page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Three main components of CSS: */
+/* 1. Selectors: These are used to select the HTML elements you want to style. */
+/* 2. Properties: These define the styles you want to apply to the selected elements. */
+/* 3. Values: These are the specific settings for the properties you define. */
+
+/* Types of CSS styles: */
+/* 1. Inline CSS: Styles applied directly within an HTML element using the style attribute. */
+/* Example of inline CSS */
+ /* <div style="background-color: #e0e0e0; padding: 20px;">
+    <p>This is an example of inline CSS applied to a div element.</p> */
+
+/* 2. Internal CSS: Styles defined within a <style> tag in the head section of an HTML document. */
+/* Example of internal CSS */
+/* <style> */
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+/* </style> */
+
+/* 3. External CSS: Styles defined in a separate .css file linked to the HTML document. */
+/* Example of an external CSS link */
+ p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+} 

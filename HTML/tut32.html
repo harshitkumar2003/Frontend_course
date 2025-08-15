@@ -7,6 +7,273 @@
     <link rel="stylesheet" href="/CSS/tut32.css">
     <!-- title headline of web page -->
     <title>temporary navbar</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+    /* Change to any color you like */
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+    /* background-color: #ff6347; */
+    /* Button color */
+    /* color: white; */
+    /* border: none; */
+    padding: 10px 15px;
+    margin-left: 10px;
+    /* cursor: pointer; */
+    /* border-radius: 5px; */
+    /* Rounded corners */
+    transition: transform 0.3s, background-color 0.3s;
+    perspective: 1000px;
+    /* Perspective for 3D effect */
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    border-radius: 0.8em;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: ghostwhite;
+    overflow: hidden;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+    /* Darker shade on hover */
+    transform: translateZ(10px) rotateX(10deg);
+    /* 3D effect */
+}
+
+.home {
+    /* padding: 2rem; */
+    height: 31rem;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
+}
+
+.headline {
+    text-align: center;
+    border: 2px solid #ff4500;
+}
+
+.headline h1 {
+    font-size: 4rem;
+    padding: auto;
+    font-variant: small-caps;
+}
+
+.tagline h3 {
+    margin: auto;
+    position: relative;
+    top: 8.5rem;
+    font-size: 2rem;
+    width: 50%;
+    padding: auto;
+    font-variant: small-caps;
+}
+
+hr {
+    margin-top: 1rem;
+    height: .1rem;
+    background: #ebdfdf;
+}
+
+.service {
+    background-color: #f2eef6;
+    display: flex;
+    /* border: 2px solid rgb(176, 61, 61); */
+    margin: 1rem;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    border: 1px solid rgb(84, 78, 78);
+    margin: .5rem;
+    padding: 1rem;
+
+}
+
+.imagebox img {
+    height: 12rem;
+    width: 11rem;
+}
+
+.box h2 {
+    text-align: center;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro h2 {
+    text-wrap: wrap;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.intro h5 {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.illustrator img {
+    width: 34rem;
+    height: 32rem;
+}
+
+.herobtn {
+    text-align: center;
+}
+
+.cssbuttons-io {
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    border-radius: 0.8em;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: ghostwhite;
+    overflow: hidden;
+}
+
+.cssbuttons-io svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+}
+
+.cssbuttons-io span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttons-io::before,
+.cssbuttons-io::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.cssbuttons-io::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-io:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-io:active {
+    transform: scale(0.95);
+}
+
+.about {
+    text-align: center;
+    padding: 20px 5px;
+    margin: 1rem 2rem;
+
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
+
+.acenter h2 {
+    margin: 2rem .8rem;
+}
+
+.acenter {
+    background-color: #dbdbdb;
+    display: flex;
+    gap: 4rem;
+}
+
+.acenter p {
+    width: 50%;
+    justify-content: space-around;
+}
+
+.insta {
+    background-color: #333;
+    color: #571c92;
+    display: flex;
+    text-align: center;
+    text-decoration: solid;
+    text-overflow: clip;
+}
+    </style>
 </head>
 
 <body>
