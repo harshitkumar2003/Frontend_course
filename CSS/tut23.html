@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Propety</title>
+    <!-- styling start  -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            border: 2px solid red;
+            margin: auto;
+            width: 1200px;
+
+
+        }
+
+        /* image styling for adjusting */
+        img {
+            margin: auto;
+            display: block;
+            width: 34px;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+
+        .box {
+            border: 4px solid black;
+            background-color: grey;
+            margin: 4px 0px;
+            padding: 23px;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .container {
+            margin: auto;
+            width: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header tag with image source url -->
+    <header class="top">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+            alt="">
+        <!-- heading  -->
+        <h3>Welcome To Harshit Blog</h3>
+    </header>
+    <!-- added three boxes with adding heading and paragraph -->
+    <!-- box1 -->
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, deserunt nesciunt. Quod placeat,
+                provident iure, natus odit eos reprehenderit quasi saepe earum nobis consequuntur omnis asperiores?
+                Asperiores tenetur quae harum dolore quas, voluptas, nam exercitationem, odit nesciunt suscipit
+                consequatur facere assumenda quaerat voluptatum accusamus!</p>
+        </div>
+
+        <!-- box2 -->
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, deserunt nesciunt. Quod placeat,
+                provident iure, natus odit eos reprehenderit quasi saepe earum nobis consequuntur omnis asperiores?
+                Asperiores tenetur quae harum dolore quas, voluptas, nam exercitationem, odit nesciunt suscipit
+                consequatur facere assumenda quaerat voluptatum accusamus!</p>
+        </div>
+
+        <!-- box3 -->
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, deserunt nesciunt. Quod placeat,
+                provident iure, natus odit eos reprehenderit quasi saepe earum nobis consequuntur omnis asperiores?
+                Asperiores tenetur quae harum dolore quas, voluptas, nam exercitationem, odit nesciunt suscipit
+                consequatur facere assumenda quaerat voluptatum accusamus!</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

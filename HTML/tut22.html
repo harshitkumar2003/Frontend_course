@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Navigation</title>
+    <style>
+        /* styling for navigation */
+         *{
+            margin: 0px; 
+            padding: 0px; 
+        } 
+
+        /* HEIGHT AND BACKGROUND COLOR FOR MENUBAR */
+
+        .menubar {
+            height: 50px;
+            background-color: rgb(67, 133, 118);
+
+        }
+
+        .menubar ul {
+            overflow: auto;
+            padding-top: 110px;
+        }
+
+        /* FLOATING THE LINKS FOR COOL MENUBAR */
+        .menubar li {
+            float: left;
+            list-style: none;
+            margin: 12px 33px;
+        }
+
+        .menubar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+
+        }
+
+        /* ADDING SEARCH STYLING */
+        .Search {
+            float: right;
+            color: rgb(67, 133, 118);
+            background-color: rgb(249, 249, 249);
+            border: none;
+            margin-right: 22px;
+        }
+
+        /* ADD CART BUTTON AND STYLING */
+        #cart {
+            color: white;
+            background-color: rgb(0, 0, 0);
+            font-size: 11px;
+            float: right;
+            padding-top: 10px;
+            margin-right: 15px;
+            padding: 9px;
+
+        }
+
+        .menubar input {
+            border: 4px solid rgb(0, 0, 0);
+            border-radius: 14px;
+            padding: 3px 12px;
+            width: 149px;
+        }
+
+        #tt {
+            font-size: 20px;
+        }
+/* ADDING FOOTER STYLING */
+        footer {
+            background-color: aquamarine;
+            box-sizing: border-box;
+        }
+
+        #hh{
+            font-size: 49px;
+            font-family: monospace;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- html structure start  -->
+    <header>
+        <nav class="menubar">
+            <p id="hh">flipkart</p>
+            <ul>
+                <!-- adding links in division  -->
+                <div id="tt">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact-Us</a></li>
+                </div>
+                <div class="cart">
+                </div>
+                <div>
+                    <input type="text" name="Search" class="Search" placeholder="Search For Products and More">
+                    <button id="cart"><i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- header paragraph -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta adipisci quaerat possimus recusandae quidem
+        tempore. Maiores nihil sint iure, in ad placeat, corrupti explicabo deserunt amet aliquam laborum tempora
+     
+        dolores illo explicabo, quis natus omnis ex fugiat! Tempore distinctio ducimus neque facilis, suscipit ullam.
+        Dolor nostrum, similique dolorem ipsum autem voluptates, hic veritatis, maiores velit odio quas ipsa quasi
+        mollitia.</p>
+</body>
+
+</html>

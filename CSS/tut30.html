@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute & nth child pseudo Selectors</title>
+    <style>
+        /* container styling  */
+        .container {
+            display: block;
+            width: 233px;
+            margin: auto;
+        }
+
+        input {
+            display: block;
+        }
+
+        /* this css will apply for Attribute Pseudo selectors when you want to style Attributes */
+
+        /* this will apply css for text Attribute */
+        input[type='text'] {
+            padding: 23px;
+            border: 2px solid blueviolet;
+        }
+
+        a[target] {
+            font-size: 24px;
+            color: red;
+        }
+
+        a[target='_self'] {
+            font-size: 14px;
+            color: blue;
+        }
+
+        input[type='email'] {
+            padding: 23px;
+            border: 2px solid black;
+        }
+
+
+        /* this css will apply for nth child Pseudo Selectors when you want to style child */
+
+        /* this will apply css for third nth child */
+        /* li:nth-child(3) {
+            color: chartreuse;
+        } */
+
+        /* li:nth-child(2n+0) {
+            color: lightcoral;
+        } */
+
+        /* li:nth-child(3n+3) {
+            color: gold;
+        } */
+
+        /* odd child */
+        /* li:nth-child(odd){
+            background-color: deeppink; 
+        } */
+
+        /* even child */
+        li:nth-child(even) {
+            background-color: maroon;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- div with class container -->
+    <div class="container">
+        <!-- first link for google  -->
+        <h1><a href="https://google.com" target="_blank">Go to google</a></h1>
+        <!-- second link for facebook -->
+        <h1><a href="https://facebook.com" target="_self">Go to facebook</a></h1>
+<!-- form with action noaction.php -->
+        <form action="noaction.php " class="form-control">
+            <!-- inputs for multiple fields -->
+            <input type="text" placeholder="enter your name">
+            <input type="email" placeholder="enter your email">
+            <input type="password" placeholder="enter your password">
+            <!-- added two buttons reset and submit -->
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+        <!-- li with multiple items -->
+        <ul>
+            <li class="item" id="item1">item1</li>
+            <li class="item" id="item2">item2</li>
+            <li class="item" id="item3">item3</li>
+            <li class="item" id="item4">item4</li>
+            <li class="item" id="item5">item5</li>
+            <li class="item" id="item6">item6</li>
+            <li class="item" id="item7">item7</li>
+            <li class="item" id="item8">item8</li>
+            <li class="item" id="item9">item9</li>
+            <li class="item" id="item10">item10</li>
+        </ul>
+    </div>
+</body>
+
+</html>

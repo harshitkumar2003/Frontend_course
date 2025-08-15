@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box Model</title>
+    <style>
+        /* css for * priority */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* adding background color */
+        body{
+            background-color: rgb(192, 152, 207);
+        }
+
+        /* adding css in container */
+        .container{
+            color: blue;
+            background-color: #cfb7d0;
+            border: 3px solid #a519dc;
+            /* we can set padding and margin as per our choice left,right,top,bottom,like this example given blow */
+            /* padding-top: 34px; */
+            /* padding-bottom: 78px; */
+            /* padding-left: 43px; */
+            /* padding-right: 43px; */
+
+            /* margin-top: 34px; */
+            /* margin-bottom: 78px; */
+            /* margin-left: 43px; */
+            /* margin-right: 43px;*/
+            
+            /*padding: top right bottom left ; */
+            /*padding: 23px 43px 70px 90px; */
+            
+            /*margin: top right bottom left ; */
+            /*margin: 23px 43px 70px 90px; */
+            
+            /* padding: y(top/bottom) x(left/right) */
+            /* margin: y(top/bottom) x(left/right) */
+
+            padding: 34px 19px;
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 500px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <!-- add division an inside class container  -->
+    <div class="container">
+        <!-- first container inside div -->
+        <!-- heading and paragraph inside container -->
+        <h2>This is my heading</h2>
+        <p id="First">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aperiam repellat quaerat sed est eaque ullam doloribus expedita perferendis maiores, molestias, accusamus rem.</p>
+    </div>
+    <div class="container">
+        <!-- second container inside div-->
+         <!-- heading and paragraph inside container -->
+        <h2>This is my heading</h2>
+        <p id="Second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aperiam repellat quaerat sed est eaque ullam doloribus expedita perferendis maiores, molestias, accusamus rem.</p>
+    </div>
+    <div class="container">
+        <!-- third container inside div -->
+         <!-- heading and paragraph inside container -->
+        <h2>This is my heading</h2>
+        <p id="Third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti minus ad nulla item doloribus expedita perferendis maiores, molestias, accusamus rem.</p>
+    </div>
+</body>
+</html>
