@@ -65,16 +65,11 @@ section {
 img {
   width: 50%;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   /*-webkit-filter: opacity(1);
   */
   filter: blur(3px) grayscale(0.5) contrast(1.2);
-  -webkit-filter: blur(3px) grayscale(0.5) contrast(1.2);
 }
 
 /** ------------------------------------- -->

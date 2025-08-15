@@ -18,7 +18,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap");
 
 @font-face {
-  font-family: "thapaFont";
+  font-family: "cuteFont";
   src: url("./font/Fortune.otf") format("OpenType");
 }
 
@@ -35,7 +35,7 @@ body {
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-family: "Urbanist", sans-serif;
-  font-family: "thapaFont", "Urbanist", sans-serif;
+  font-family: "cuteFont", "Urbanist", sans-serif;
   font-size: 54px;
   font-weight: 900;
   font-style: italic;

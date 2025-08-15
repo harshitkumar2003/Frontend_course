@@ -12,6 +12,7 @@
     - `[border-color]`: Specifies the color of the border (e.g., a color name, hex code, RGB value, etc.). */
 
 /*TODO Let understand the Each border property one by one.  */
+/*? Border: The border property is a shorthand property that combines the border-width, border-style, and border-color properties into one. It allows you to set all three properties in a single declaration. */
 
 /*? Border Width: The border-width property controls the thickness of the border. You can specify it using units like pixels (px), ems (em), or percentages (%). */
 
@@ -105,14 +106,12 @@ div {
   -o-border-radius: 50%;
   */
   border-radius: 50%;
-  background-image: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
-  );
+  background-image: linear-gradient(to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12);
 }
 
 /** ------------------------------------- -->

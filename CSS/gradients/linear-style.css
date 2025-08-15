@@ -33,14 +33,12 @@ section {
     #a8eb12
   ); */
   /* background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 50px); */
-  background-image: linear-gradient(
-      to right top,
+  background-image: linear-gradient(to right top,
       rgba(5, 25, 55, 0.6),
       rgba(0, 77, 122, 0.6),
       rgba(0, 135, 147, 0.6),
       rgba(0, 191, 114, 0.6),
-      rgba(168, 235, 18, 0.6)
-    ),
+      rgba(168, 235, 18, 0.6)),
     url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   background-size: cover;

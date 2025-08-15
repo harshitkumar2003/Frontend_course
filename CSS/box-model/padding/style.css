@@ -6,7 +6,8 @@
 
 /*? 1. Uniform Padding:
     padding: 10px;  
-    👉   This sets 10 pixels of padding on all sides of the element. */
+    👉   This sets 10 pixels of 
+    padding on all sides of the element. */
 
 /*? 2. Vertical and Horizontal Padding:  
     padding: 5px 10px;  
@@ -90,6 +91,8 @@ p {
 /** ---------------------------------------- --> */
 
 /*? 1: How do you set padding for all sides of an HTML element using shorthand notation? */
+/* You can set padding for all sides using the shorthand notation like this: */
+/* padding: 20px; */
 
 /*? 2: What is the purpose of negative padding in CSS, and can you provide an example? */
 /* Negative padding is not a standard CSS property. Padding is always a positive value to create space around an element's content. Negative margins, on the other hand, can be used to overlap elements. */

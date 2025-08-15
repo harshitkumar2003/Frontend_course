@@ -19,15 +19,13 @@ section {
   height: 100vh;
   /* background-image: radial-gradient(circle, red 20%, yellow 40%, green 40%); */
   /* background-image: repeating-radial-gradient(#ff5733, #ffc300, #a8df8e 250px); */
-  background: radial-gradient(
-    circle at center,
-    #ff5733 0%,
-    #ffc300 20%,
-    #ff5733 40%,
-    #2980b9 60%,
-    #33ff57 80%,
-    #2980b9 100%
-  );
+  background: radial-gradient(circle at center,
+      #ff5733 0%,
+      #ffc300 20%,
+      #ff5733 40%,
+      #2980b9 60%,
+      #33ff57 80%,
+      #2980b9 100%);
 }
 
 /*? Differently Spaced Color Stops */

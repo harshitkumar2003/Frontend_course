@@ -151,20 +151,25 @@ body {
   /* grid-column: 2 / 3; */
   /* grid-area: 2 / 2 / 3 / 3; */
 }
+
 .item-2 {
   background-color: #113946;
 }
+
 .item-3 {
   background-color: #102c57;
   /* grid-row: 1/2;
   grid-column: 2/4; */
 }
+
 .item-4 {
   background-color: #884a39;
 }
+
 .item-5 {
   background-color: #454545;
 }
+
 .item-6 {
   background-color: #85586f;
 }
