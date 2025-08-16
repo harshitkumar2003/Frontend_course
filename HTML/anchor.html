@@ -6,25 +6,57 @@
 <!-- *------------------------------------- -->
 <!--* HTML ANCHOR TAG - ATTRIBUTES
 <!-- *---------------------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- href: Specifies the URL or destination the link points to.
-target: Specifies where the linked content will be displayed (e.g., _blank for a new window/tab).
-download: Suggests that the target will be downloaded when clicked.
-rel: Describes the relationship between the current page and the linked page.
-title: Provides additional information when hovering over the link.
-id: Assigns a unique identifier to the anchor for linking within the page.
-class: Assigns a class for styling or JavaScript interactions.
-style: Applies inline CSS styling to the anchor.
-tabindex: Specifies the tab order when navigating using the keyboard.
-accesskey: Defines a keyboard shortcut to activate the link.
-aria-*: Attributes for accessibility purposes (e.g., aria-label). -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-<!-- *------------------------------------- -->
-<!--* INTERVIEW QUESTIONS: HTML ANCHOR TAG  
+  <!-- href: Specifies the URL or destination the link points to. -->
+  <a href="https://www.example.com">Link Text</a>
+  <hr>
+  <!-- target: Specifies where the linked content will be displayed (e.g., _blank for a new window/tab). -->
+  <a href="https://www.example.com" target="_blank">Open in New Tab</a>
+  <hr>
+  <!-- download: Suggests that the target will be downloaded when clicked. -->
+  <a href="file.pdf" download>Download PDF</a>
+  <hr>
+  <!-- rel: Describes the relationship between the current page and the linked page. -->
+  <a href="https://www.example.com" rel="noopener noreferrer">External Link</a>
+  <hr>
+  <!-- title: Provides additional information when hovering over the link. -->
+  <a href="https://www.example.com" title="Visit Example">Hover for Info</a>
+  <hr>
+  <!-- id: Assigns a unique identifier to the anchor for linking within the page. -->
+  <a href="#section1" id="linkToSection1">Go to Section 1</a>
+  <hr>
+  <!-- class: Assigns a class for styling or JavaScript interactions. -->
+  <a href="https://www.example.com" class="my-link">Styled Link</a>
+  <hr>
+  <!-- style: Applies inline CSS styling to the anchor. -->
+  <a href="https://www.example.com" style="color: blue; text-decoration: none;">Styled Link</a>
+  <hr>
+  <!-- tabindex: Specifies the tab order when navigating using the keyboard. -->
+  <a href="https://www.example.com" tabindex="1">Tab Order Link</a>
+  <hr>
+  <!-- accesskey: Defines a keyboard shortcut to activate the link. -->
+  <a href="https://www.example.com" accesskey="h">Access Key H</a>
+  <hr>
+  <!-- aria-*: Attributes for accessibility purposes (e.g., aria-label). -->
+  <a href="https://www.example.com" aria-label="Visit Example Website">Accessible Link</a>
+  <hr>
+  <!-- mailto: Creates a link that opens the user's default email client with a specified email address. -->
+  <a href="mailto:harshit@gmail.com?subject=Hello&body=How are you?">Email Me</a>
+
+
+  <!-- *------------------------------------- -->
+  <!--* INTERVIEW QUESTIONS: HTML ANCHOR TAG  
 <!-- *---------------------------------------- -->
 
-<!--* 1: How can you create a link within the same webpage that takes the user to a specific section or element on the page? -->
-<!-- To create a link that takes the user to a specific section or element within the
+  <!--* 1: How can you create a link within the same webpage that takes the user to a specific section or element on the page? -->
+  <!-- To create a link that takes the user to a specific section or element within the
 same webpage, you can use the anchor (a) tag's href attribute along with the id attribute of the target element. -->
 
   <!--* 2: What's the difference between relative and absolute URLs in the href attribute? -->
@@ -39,29 +71,36 @@ same webpage, you can use the anchor (a) tag's href attribute along with the id 
 
   <!--* 5: How can you create a clickable link in HTML that allows users to directly initiate a phone call when clicked? -->
   <!-- To create a link that enables users to initiate a phone call when clicked, you can use the anchor tag's href attribute with the tel: protocol.  -->
- 
 
 
-<!-- *------------------------------------- -->
-<!--* BONUS: HTML ANCHOR TAG  
+
+  <!-- *------------------------------------- -->
+  <!--* BONUS: HTML ANCHOR TAG  
 <!-- *---------------------------------------- -->
 
   <!--* ALSO WHEN TO USE QUOTES, WHEN NOT TO  -->
 
-    <a href=https://www.mozilla.org/>favorite website</a>
-    <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+  <a href=https://www.mozilla.org>favorite website</a>
+  <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
 
-<!-- So the best practice is Always include the attribute quotes. It avoids such problems, and results in more readable code. -->
+  <!-- So the best practice is Always include the attribute quotes. It avoids such problems, and results in more readable code. -->
 
-<!--* Single or double quotes?  -->
-<a href="https://www.example.com">A link to my example.</a>
+  <!--* Single or double quotes?  -->
+  <a href="https://www.example.com">A link to my example.</a>
 
-<a href="https://www.example.com">A link to my example.</a>
+  <a href="https://www.example.com">A link to my example.</a>
 
-<!-- mixing both the quotes at the same time is wrong -->
-<!-- ❌ <a href="https://www.example.com'>A link to my example.</a> -->
+  <!-- mixing both the quotes at the same time is wrong -->
+  <!-- ❌ <a href="https://www.example.com'>A link to my example.</a> -->
 
-<!-- However, if you use one type of quote, you can include the other type of quote inside your attribute values: -->
-<a href="https://www.example.com" title="Isn't this fun?">
-  A link to my example.
-</a>
+  <!-- However, if you use one type of quote, you can include the other type of quote inside your attribute values: -->
+  <a href="https://www.example.com" title="Isn't this fun?">
+    A link to my example.
+  </a>
+</head>
+
+<body>
+
+</body>
+
+</html>
