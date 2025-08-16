@@ -5,38 +5,56 @@
 <!--? Audio (<audio>): The <audio> element is used to embed audio content in a webpage. It supports various audio formats and provides controls for playback. -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
-    html {
-      font-family: "jost", sans-serif;
-      background-color: #efefef;
-    }
-    h1 {
-      font-weight: bold;
-    }
-    audio {
-      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      border-radius: 25px;
-    }
-  </style>
-  <body>
-    <h2>HTML AUDIO TAG</h2>
-    <!-- add audio tag here  -->
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+
+  html {
+    font-family: "jost", sans-serif;
+    background-color: #efefef;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+
+  audio {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+  }
+</style>
+
+<body>
+  <h2>HTML AUDIO TAG</h2>
+  <!-- add audio tag here  -->
+  <audio controls 
+         preload="metadata"
+         poster="/HTML/images/html.jpg"
+         style="width: 500px;">
+    <source src="/HTML/audio/audio_thapa.mp3" type="audio/mp3" />
+    <source src="/HTML/audio/audio_thapa.wav" type="audio/wav" />
+    Your browser does not support the audio element.'
+</body>
+
 </html>
 
 <!-- *------------------------------------- -->
-<!--* HTML AUDIO TAG - Attributes
+<!--*! HTML AUDIO TAG - Attributes
 <!-- *---------------------------------------- -->
-<!-- 
+<!--  
 controls: Adds playback controls (play, pause, volume, etc.).
+
 autoplay: Starts playback automatically. loop: Repeats the media indefinitely.
+
+muted: Mutes the audio by default.
+
 preload: Specifies if the media should be loaded when the page loads. poster:
+
 Displays an image before the media loads. 
 -->
 

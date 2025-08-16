@@ -40,23 +40,65 @@ multiple options.
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
-    html {
-      font-family: "jost", sans-serif;
-      background-color: #efefef;
-    }
-    h1 {
-      font-weight: bold;
-    }
-  </style>
-  <body>
-    <h1>HTML FORM</h1>
-    <!-- Add Form Here -->
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+
+  html {
+    font-family: "jost", sans-serif;
+    background-color: #efefef;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+</style>
+
+<body>
+  <h1>HTML FORM</h1>
+  <!-- Add Form Here -->
+  <form>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+    </div>
+    <div>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required />
+    </div>
+    <div>
+
+      <label for="text">Commments</label>
+      <textarea name="" id=""></textarea>
+    </div>
+    <div>
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" list="countries" required />
+    <datalist id="countries">
+    <option value="USA">
+    <option value="Canada">
+    <option value="UK">
+    </datalist>
+    <div>
+      <button type="submit">sub</button>
+      <button type="reset">res</button>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>
+</body>
+
 </html>

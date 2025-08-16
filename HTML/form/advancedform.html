@@ -14,81 +14,90 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
-      html {
-        font-family: "jost", sans-serif;
-        background-color: #efefef;
-      }
-      h1 {
-        font-weight: bold;
-      }
-    </style>
-  </head>
-  <body>
-    <form action="#">
-      <div>
-        <label for="range">Range: </label>
-        <input type="range" name="volume" min="0" max="100" value="50" />
-      </div>
-      <br />
-      <div>
-        <label for="birthdate">birthdate: </label>
-        <input type="date" name="birthdate" />
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-      <br />
-      <div>
-        <label for="appointmentTime">appointmentTime: </label>
-        <input type="time" name="appointmentTime" />
-      </div>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
 
-      <br />
-      <div>
-        <label for="favoriteColor">favoriteColor: </label>
-        <input type="color" name="favoriteColor" />
-      </div>
+    html {
+      font-family: "jost", sans-serif;
+      background-color: #efefef;
+    }
 
-      <br />
-      <div>
-        <label for="website">website: </label>
-        <input type="url" name="website" placeholder="Enter website URL" />
-      </div>
+    h1 {
+      font-weight: bold;
+    }
+  </style>
+</head>
 
-      <br />
-      <div>
-        <label for="searchQuery">searchQuery: </label>
-        <input type="search" name="searchQuery" placeholder="Search..." />
-      </div>
-
-      <br />
-      <div>
-        <label for="expiryDate">Month & Year: </label>
-        <input type="month" name="expiryDate" />
-      </div>
-
-      <br />
-      <div>
-        <label for="week">vacationWeek: </label>
-        <input type="week" name="vacationWeek" />
-      </div>
-    </form>
+<body>
+  <form action="#">
+    <div>
+      <label for="range">Range: </label>
+      <input type="range" name="volume" min="0" max="100" value="50" />
+    </div>
     <br />
+    <div>
+      <label for="birthdate">birthdate: </label>
+      <input type="date" name="birthdate" />
+    </div>
 
-    <!--? Semantic HTML5 Form Elements:
+    <br />
+    <div>
+      <label for="appointmentTime">appointmentTime: </label>
+      <input type="time" name="appointmentTime" />
+    </div>
+
+    <br />
+    <div>
+      <label for="favoriteColor">favoriteColor: </label>
+      <input type="color" name="favoriteColor" />
+    </div>
+
+    <br />
+    <div>
+      <label for="website">website: </label>
+      <input type="url" name="website" placeholder="Enter website URL" />
+    </div>
+
+    <br />
+    <div>
+      <label for="searchQuery">searchQuery: </label>
+      <input type="search" name="searchQuery" placeholder="Search..." />
+    </div>
+
+    <br />
+    <div>
+      <label for="expiryDate">Month & Year: </label>
+      <input type="month" name="expiryDate" />
+    </div>
+
+    <br />
+ 
+  </form>
+  <br />
+
+  <!--? Semantic HTML5 Form Elements:
 Semantic HTML5 form elements like <label>, <fieldset>, and <legend> provide better structure and accessibility to forms.
 
 <label>: Associates text labels with form elements for better user understanding.
 <fieldset>: Groups related form elements together, creating a visual and semantic grouping.
 <legend>: Provides a caption or title for the <fieldset> element. -->
 
-    <form action="/submit" method="post">
-      <!-- add <fieldset> </fieldset> -->
-    </form>
-  </body>
+  <form action="/submit" method="post">
+    <!-- add <fieldset> </fieldset> -->
+     <fieldset>
+      <legend>Personal Details</legend>   
+      <div>
+      <label for="week">vacationWeek: </label>
+      <input type="week" name="vacationWeek" />
+    </div>
+     </fieldset>
+  </form>
+</body>
+
 </html>
