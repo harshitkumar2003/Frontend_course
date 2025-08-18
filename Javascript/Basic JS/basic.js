@@ -1,4 +1,4 @@
-// TODO Starting javacript form thia file basic understanding of JavaScript
+// TODO Starting javacript series form thia file basic understanding of JavaScript
 // This is a simple JavaScript file to demonstrate basic syntax and functionality
 
 // TODO what is console.log in JavaScript?
