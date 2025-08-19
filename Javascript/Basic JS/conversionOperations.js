@@ -178,3 +178,31 @@
 // console.log(messagestring); //TODO Outputs: "23" because the number 23 is converted to a string 
 // console.log(typeof messagestring); //TODO Outputs: string because the value is now a string type 
 //!-----------------------------------------------------------------------------------------------------------------
+
+
+
+//!-----------------------------------------------------------------------------------------------------------------
+//! Way to convert a number to a string using the unary plus operator 
+// let value = 3 // TODO Number data type
+// let valueInString = -value;
+// console.log(valueInString); //TODO Outputs: -3 because the negative sign is applied to the number 3 
+//!-----------------------------------------------------------------------------------------------------------------
+
+
+
+//!-----------------------------------------------------------------------------------------------------------------
+console.log(2+3); //TODO Outputs: 5 because the addition operator is used to add two numbers
+console.log(2 - 3); //TODO Outputs: -1 because the subtraction operator is used to subtract 3 from 2
+console.log(2 * 3); //TODO Outputs: 6 because the multiplication operator is used to multiply two numbers
+console.log(2 / 3); //TODO Outputs: 0.6666666666666666 because the division operator is used to divide 2 by 3
+console.log(2 % 3); //TODO Outputs: 2 because the modulus operator is used to find the remainder of 2 divided by 3
+console.log(2 ** 3); //TODO Outputs: 8 because the exponentiation operator is used to raise 2 to the power of 3
+console.log(2 + "3"); //TODO Outputs: "23" because the addition operator is used with a number and a string, resulting in string concatenation
+console.log(2 - "3"); //TODO Outputs: -1 because the subtraction operator is used with a number and a string, resulting in numeric subtraction
+console.log("2" + 2); //TODO Outputs: "22" because the addition operator is used with a string and a number, resulting in string concatenation
+console.log("2" + 2 + 2 + 4); //TODO Outputs: "22" because the addition operator is used with a string and a number, resulting in string concatenation
+
+
+
+//!-----------------------------------------------------------------------------------------------------------------
+
