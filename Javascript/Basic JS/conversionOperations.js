@@ -118,11 +118,63 @@
 
 
 
+//!-----------------------------------------------------------------------------------------------------------------
+//    let isLoggedIn = undefined; // TODO undefined data type
+
+
+//   let booleanIsLoggedIn = Boolean(isLoggedIn); //TODO converts the undefined value to a boolean value
+//   console.log(booleanIsLoggedIn); //TODO Outputs: false because undefined is considered falsy in JavaScript
+//!-----------------------------------------------------------------------------------------------------------------
+
 
 
 //!-----------------------------------------------------------------------------------------------------------------
-//  let isLoggedIn = undefined; // TODO undefined data type
+//!-------------------------------------------------
+//! for string conversion
+//!-------------------------------------------------
+// let message = 23; // TODO Number data type
+
+// let  messagestring= String(message); //TODO converts the number 23 to a string value
+// console.log(messagestring); //TODO Outputs: "23" because the number 23 is converted to a string
+// console.log(typeof messagestring); //TODO Outputs: string because the value is now a string type 
+//!-----------------------------------------------------------------------------------------------------------------
 
 
-//  let booleanIsLoggedIn = Boolean(isLoggedIn); //TODO converts the undefined value to a boolean value
-//  console.log(booleanIsLoggedIn); //TODO Outputs: false because undefined is considered falsy in JavaScript
+
+//!-----------------------------------------------------------------------------------------------------------------
+// let message = true; // TODO Boolean data type
+
+// let  messagestring= String(message); //TODO converts the boolean value true to a string value
+// console.log(messagestring); //TODO Outputs: "true" because the boolean true is converted to a string
+// console.log(typeof messagestring); //TODO Outputs: string because the value is now a string type  
+//!-----------------------------------------------------------------------------------------------------------------
+
+
+
+//!-----------------------------------------------------------------------------------------------------------------
+// let message = ""; // TODO Empty String data type
+
+// let  messagestring= String(message); //TODO converts the empty string to a string value
+// console.log(messagestring); //TODO Outputs: "" because the empty string remains empty when converted to a string
+// console.log(typeof messagestring); //TODO Outputs: string because the value is still a string type 
+//!-----------------------------------------------------------------------------------------------------------------
+
+
+
+//!-----------------------------------------------------------------------------------------------------------------
+// let message = null; // TODO null data type
+
+// let  messagestring= String(message); //TODO converts the null value to a string value
+// console.log(messagestring); //TODO Outputs: "null" because null is converted to the string "null"
+// console.log(typeof messagestring); //TODO Outputs: string because the value is now a string type 
+//!-----------------------------------------------------------------------------------------------------------------
+
+
+
+//!-----------------------------------------------------------------------------------------------------------------
+// let message = undefined; // TODO Undefined data type
+
+// let  messagestring= String(message); //TODO converts the undefined value to a boolean value
+// console.log(messagestring); //TODO Outputs: "23" because the number 23 is converted to a string 
+// console.log(typeof messagestring); //TODO Outputs: string because the value is now a string type 
+//!-----------------------------------------------------------------------------------------------------------------
