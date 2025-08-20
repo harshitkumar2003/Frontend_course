@@ -32,6 +32,17 @@ const bigNumber = 4254624354264526n
 const heros = ["Ironman", "Hulk", "Thor"];
 
 let myObj = {
-    name = "Harshit",
-    age = 21,
+    name: "Harshit",
+    age: 21
 }
+
+const myFunction = function() {
+    console.log("Hello World");
+}
+
+console.log(myFunction());
+
+console.log(typeof myFunction); // Outputs: function
+console.log(typeof heros); // Outputs: object
+console.log(typeof myObj); // Outputs : object
+console.log(typeof anotherId); // Outputs: symbol
