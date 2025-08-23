@@ -15,4 +15,5 @@ console.log(name[0]);
 console.log(name.length); // Length of the string
 console.log(name.toLowerCase()); // Convert to uppercase
 console.log(name.toUpperCase()); // Convert to lowercase
-console.log(name.charAt(2)); // 
+console.log(name.charAt(2)); //
+console.log(name.indexOf('S')); //
