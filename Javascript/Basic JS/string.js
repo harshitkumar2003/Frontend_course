@@ -7,7 +7,7 @@
 // console.log(`My name is ${name} and age is ${age}`);
 
 
-const name = new String(`HARSHIT`);
+// const name = new String(`HARSHIT`);
 // console.log(name); //! String object
 
 // console.log(name[0]);
@@ -19,8 +19,25 @@ const name = new String(`HARSHIT`);
 // console.log(name.indexOf('S')); //! 3
 
 // const newname = name.substring(1,5);
-// console.log(newname) // ARSH
+// console.log(newname) //! ARSH
 
-const anothername = name.slice(3,2);
-console.log(anothername); // 
+// const anotherName = name.slice(1,4);
+// console.log(anotherName); //! ARS
+
+
+const newString = '                harry-patel            ';
+ console.log(newString.trim()); //!harry-patel
+
+ console.log(newString.replace('-','and')); //!harry-patel
+
+//  console.log(newString.include('sunny')); //!currently not working but used for finding given by user
+ console.log(newString.split('-')); //!        harry', 'patel            ' ]
+
+
+
+
+    
+
+
+
 
